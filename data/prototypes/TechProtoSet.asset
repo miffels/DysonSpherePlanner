@@ -1,0 +1,4005 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca1f87548b915a4db5d57b7a85be004, type: 3}
+  m_Name: TechProtoSet
+  m_EditorClassIdentifier:
+  TableName: Tech
+  dataArray:
+  - Name: T戴森球计划
+    ID: 1
+    SID:
+    Desc: 戴森球计划描述
+    Conclusion:
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1
+    IsLabTech: 0
+    PreTechs:
+    PreTechsImplicit:
+    Items:
+    ItemPoints:
+    HashNeeded: 1
+    UnlockRecipes:
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 5, y: 1}
+  - Name: T电磁学
+    ID: 1001
+    SID:
+    Desc: 电磁学描述
+    Conclusion: 电磁学结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1001
+    IsLabTech: 0
+    PreTechs: 01000000
+    PreTechsImplicit:
+    Items: b2040000
+    ItemPoints: 1e000000
+    HashNeeded: 1200
+    UnlockRecipes: 070000000800000030000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: 9b08000099080000fd080000
+    AddItemCounts: 010000000100000001000000
+    Position: {x: 9, y: 1}
+  - Name: T电磁矩阵
+    ID: 1002
+    SID:
+    Desc: 电磁矩阵描述
+    Conclusion: 电磁矩阵结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1002
+    IsLabTech: 0
+    PreTechs: e9030000
+    PreTechsImplicit:
+    Items: b204000015050000
+    ItemPoints: 1400000014000000
+    HashNeeded: 1800
+    UnlockRecipes: 090000000a000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: 550b0000
+    AddItemCounts: 01000000
+    Position: {x: 13, y: 1}
+  - Name: T高效电浆控制
+    ID: 1101
+    SID:
+    Desc: 高效电浆控制描述
+    Conclusion: 高效电浆控制结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1101
+    IsLabTech: 1
+    PreTechs: e9030000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 9000
+    UnlockRecipes: 0b0000000c0000000d000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: 79050000
+    AddItemCounts: 0a000000
+    Position: {x: 13, y: -23}
+  - Name: T等离子萃取精炼
+    ID: 1102
+    SID:
+    Desc: 等离子萃取精炼描述
+    Conclusion: 等离子萃取精炼结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1102
+    IsLabTech: 1
+    PreTechs: 600400004d040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 0a000000
+    HashNeeded: 36000
+    UnlockRecipes: 0e0000000f00000010000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -23}
+  - Name: TX射线裂解
+    ID: 1103
+    SID:
+    Desc: X射线裂解描述
+    Conclusion: X射线裂解结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1103
+    IsLabTech: 1
+    PreTechs: 610400004e040000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 72000
+    UnlockRecipes: 3a000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -23}
+  - Name: T能量矩阵
+    ID: 1111
+    SID:
+    Desc: 能量矩阵描述
+    Conclusion: 能量矩阵结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1111
+    IsLabTech: 1
+    PreTechs: 4e040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 36000
+    UnlockRecipes: 12000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -27}
+  - Name: T氢燃料棒
+    ID: 1112
+    SID:
+    Desc: 氢燃料棒描述
+    Conclusion: 氢燃料棒结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1112
+    IsLabTech: 1
+    PreTechs: 57040000
+    PreTechsImplicit:
+    Items: 72170000
+    ItemPoints: 14000000
+    HashNeeded: 72000
+    UnlockRecipes: 13000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -27}
+  - Name: T推进器
+    ID: 1113
+    SID:
+    Desc: 推进器描述
+    Conclusion: 推进器结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1113
+    IsLabTech: 1
+    PreTechs: 58040000
+    PreTechsImplicit:
+    Items: 72170000
+    ItemPoints: 14000000
+    HashNeeded: 180000
+    UnlockRecipes: 14000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -27}
+  - Name: T加力推进器
+    ID: 1114
+    SID:
+    Desc: 加力推进器描述
+    Conclusion: 加力推进器结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1114
+    IsLabTech: 1
+    PreTechs: 59040000
+    PreTechsImplicit:
+    Items: 72170000
+    ItemPoints: 14000000
+    HashNeeded: 288000
+    UnlockRecipes: 15000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: -27}
+  - Name: T流体储存封装
+    ID: 1120
+    SID:
+    Desc: 流体储存封装描述
+    Conclusion: 流体储存封装结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1120
+    IsLabTech: 1
+    PreTechs: e9030000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 9000
+    UnlockRecipes: 7200000031000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: 3a080000
+    AddItemCounts: 01000000
+    Position: {x: 13, y: -19}
+  - Name: T基础化工
+    ID: 1121
+    SID:
+    Desc: 基础化工描述
+    Conclusion: 基础化工结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1121
+    IsLabTech: 1
+    PreTechs: 600400004e040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 0a000000
+    HashNeeded: 72000
+    UnlockRecipes: 160000001700000018000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -19}
+  - Name: T高分子化工
+    ID: 1122
+    SID:
+    Desc: 高分子化工描述
+    Conclusion: 高分子化工结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1122
+    IsLabTech: 1
+    PreTechs: 61040000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 72000
+    UnlockRecipes: 1900000036000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -19}
+  - Name: T高强度晶体
+    ID: 1123
+    SID:
+    Desc: 高强度晶体描述
+    Conclusion: 高强度晶体结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1123
+    IsLabTech: 1
+    PreTechs: 62040000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 108000
+    UnlockRecipes: 1a000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -19}
+  - Name: T结构矩阵
+    ID: 1124
+    SID:
+    Desc: 结构矩阵描述
+    Conclusion: 结构矩阵结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1124
+    IsLabTech: 1
+    PreTechs: 63040000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 0c0000000c000000
+    HashNeeded: 240000
+    UnlockRecipes: 1b000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: -19}
+  - Name: T卡西米尔晶体
+    ID: 1125
+    SID:
+    Desc: 卡西米尔晶体描述
+    Conclusion: 卡西米尔晶体结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1125
+    IsLabTech: 1
+    PreTechs: 64040000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 240000
+    UnlockRecipes: 1c0000001d000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -19}
+  - Name: T高强度玻璃
+    ID: 1126
+    SID:
+    Desc: 高强度玻璃描述
+    Conclusion: 高强度玻璃结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1126
+    IsLabTech: 1
+    PreTechs: 6c040000
+    PreTechsImplicit:
+    Items: 7217000073170000
+    ItemPoints: 0c00000006000000
+    HashNeeded: 240000
+    UnlockRecipes: 1e000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -15}
+  - Name: T应用型超导体
+    ID: 1131
+    SID:
+    Desc: 应用型超导体描述
+    Conclusion: 应用型超导体结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1131
+    IsLabTech: 1
+    PreTechs: 61040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 72000
+    UnlockRecipes: 1f00000020000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -15}
+  - Name: T高强度材料
+    ID: 1132
+    SID:
+    Desc: 高强度材料描述
+    Conclusion: 高强度材料结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1132
+    IsLabTech: 1
+    PreTechs: 6b040000
+    PreTechsImplicit:
+    Items: 7217000073170000
+    ItemPoints: 1000000004000000
+    HashNeeded: 135000
+    UnlockRecipes: 2100000023000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: -15}
+  - Name: T粒子可控技术
+    ID: 1133
+    SID:
+    Desc: 粒子可控技术描述
+    Conclusion: 粒子可控技术结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1133
+    IsLabTech: 1
+    PreTechs: 6c040000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 100000001000000004000000
+    HashNeeded: 180000
+    UnlockRecipes: 240000003e000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -11}
+  - Name: T重氢分馏
+    ID: 1134
+    SID:
+    Desc: 重氢分馏描述
+    Conclusion: 重氢分馏结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1134
+    IsLabTech: 1
+    PreTechs: 840500004e040000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 140000001e000000
+    HashNeeded: 36000
+    UnlockRecipes: 6e00000073000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -11}
+  - Name: T波函数干扰
+    ID: 1141
+    SID:
+    Desc: 波函数干扰描述
+    Conclusion: 波函数干扰结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1141
+    IsLabTech: 1
+    PreTechs: 6604000065040000
+    PreTechsImplicit:
+    Items: 711700007217000074170000
+    ItemPoints: 0c0000000c00000002000000
+    HashNeeded: 360000
+    UnlockRecipes: 26000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 41, y: -19}
+  - Name: T微型粒子对撞机
+    ID: 1142
+    SID:
+    Desc: 微型粒子对撞机描述
+    Conclusion: 微型粒子对撞机结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1142
+    IsLabTech: 1
+    PreTechs: 64040000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 240000
+    UnlockRecipes: 2700000028000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -23}
+  - Name: T奇异物质
+    ID: 1143
+    SID:
+    Desc: 奇异物质描述
+    Conclusion: 奇异物质结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1143
+    IsLabTech: 1
+    PreTechs: 76040000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes: 68000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 41, y: -23}
+  - Name: T人造恒星
+    ID: 1144
+    SID:
+    Desc: 人造恒星描述
+    Conclusion: 人造恒星结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1144
+    IsLabTech: 1
+    PreTechs: 79040000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0a0000000a0000000a0000000a0000000a000000
+    HashNeeded: 432000
+    UnlockRecipes: 2b000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 61, y: -3}
+  - Name: T可控湮灭反应
+    ID: 1145
+    SID:
+    Desc: 可控湮灭反应描述
+    Conclusion: 可控湮灭反应结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1145
+    IsLabTech: 1
+    PreTechs: e2050000
+    PreTechsImplicit:
+    Items: 7217000075170000
+    ItemPoints: 180000000c000000
+    HashNeeded: 600000
+    UnlockRecipes: 2a0000002c000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 57, y: -3}
+  - Name: T加速剂 Mk.I
+    ID: 1151
+    SID:
+    Desc: 加速剂 Mk.I描述
+    Conclusion: 加速剂 Mk.I结果
+    Published: 0
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1151
+    IsLabTech: 1
+    PreTechs: 4d040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 36000
+    UnlockRecipes: 6a0000006d000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -31}
+  - Name: T加速剂 Mk.II
+    ID: 1152
+    SID:
+    Desc: 加速剂 Mk.II描述
+    Conclusion: 加速剂 Mk.II结果
+    Published: 0
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1152
+    IsLabTech: 1
+    PreTechs: 7f040000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 100000000c000000
+    HashNeeded: 180000
+    UnlockRecipes: 6b000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -31}
+  - Name: T加速剂 Mk.III
+    ID: 1153
+    SID:
+    Desc: 加速剂 Mk.III描述
+    Conclusion: 加速剂 Mk.III结果
+    Published: 0
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1153
+    IsLabTech: 1
+    PreTechs: 80040000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 080000000600000004000000
+    HashNeeded: 360000
+    UnlockRecipes: 6c000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -31}
+  - Name: T基础制造工艺
+    ID: 1201
+    SID:
+    Desc: 基础制造工艺描述
+    Conclusion: 基础制造工艺结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1201
+    IsLabTech: 0
+    PreTechs: e9030000
+    PreTechsImplicit:
+    Items: 15050000b1040000
+    ItemPoints: 1400000014000000
+    HashNeeded: 1800
+    UnlockRecipes: 2d000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: ff080000
+    AddItemCounts: 01000000
+    Position: {x: 13, y: -3}
+  - Name: T高速制造工艺
+    ID: 1202
+    SID:
+    Desc: 高速制造工艺描述
+    Conclusion: 高速制造工艺结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1202
+    IsLabTech: 1
+    PreTechs: b104000016050000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 140000000a000000
+    HashNeeded: 108000
+    UnlockRecipes: 2e000000
+    UnlockFunctions: 07000000
+    UnlockValues:
+    - 0.5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -3}
+  - Name: T量子打印技术
+    ID: 1203
+    SID:
+    Desc: 量子打印技术描述
+    Conclusion: 量子打印技术结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1203
+    IsLabTech: 1
+    PreTechs: b204000017050000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0a0000000a0000000a0000000a000000
+    HashNeeded: 288000
+    UnlockRecipes: 2f000000
+    UnlockFunctions: 07000000
+    UnlockValues:
+    - 0.5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 49, y: -3}
+  - Name: T处理器
+    ID: 1302
+    SID:
+    Desc: 处理器描述
+    Conclusion: 处理器结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1302
+    IsLabTech: 1
+    PreTechs: 1f050000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 144000
+    UnlockRecipes: 33000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -7}
+  - Name: T量子芯片
+    ID: 1303
+    SID:
+    Desc: 量子芯片描述
+    Conclusion: 量子芯片结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1303
+    IsLabTech: 1
+    PreTechs: 2005000075040000
+    PreTechsImplicit:
+    Items: 711700007217000074170000
+    ItemPoints: 0a0000000a0000000a000000
+    HashNeeded: 288000
+    UnlockRecipes: 34000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 45, y: -15}
+  - Name: T半导体材料
+    ID: 1311
+    SID:
+    Desc: 半导体材料描述
+    Conclusion: 半导体材料结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1311
+    IsLabTech: 1
+    PreTechs: b1040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 28000000
+    HashNeeded: 18000
+    UnlockRecipes: 35000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -7}
+  - Name: T信息矩阵
+    ID: 1312
+    SID:
+    Desc: 信息矩阵描述
+    Conclusion: 信息矩阵结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1312
+    IsLabTech: 1
+    PreTechs: 160500006d040000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 0a0000000a000000
+    HashNeeded: 288000
+    UnlockRecipes: 37000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 41, y: -7}
+  - Name: T自动化冶金
+    ID: 1401
+    SID:
+    Desc: 自动化冶金描述
+    Conclusion: 自动化冶金结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1401
+    IsLabTech: 0
+    PreTechs: e9030000
+    PreTechsImplicit:
+    Items: b204000015050000
+    ItemPoints: 1400000014000000
+    HashNeeded: 1800
+    UnlockRecipes: 3800000039000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: fe080000
+    AddItemCounts: 03000000
+    Position: {x: 13, y: 5}
+  - Name: T冶炼提纯
+    ID: 1402
+    SID:
+    Desc: 冶炼提纯描述
+    Conclusion: 冶炼提纯结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1402
+    IsLabTech: 1
+    PreTechs: 79050000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 18000
+    UnlockRecipes: 22000000110000003b000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 5}
+  - Name: T晶体冶炼
+    ID: 1403
+    SID:
+    Desc: 晶体冶炼描述
+    Conclusion: 晶体冶炼结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1403
+    IsLabTech: 1
+    PreTechs: 7a050000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 90000
+    UnlockRecipes: 3c0000003d00000025000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 5}
+  - Name: T钢材冶炼
+    ID: 1411
+    SID:
+    Desc: 钢材冶炼描述
+    Conclusion: 钢材冶炼结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1411
+    IsLabTech: 1
+    PreTechs: 79050000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 21600
+    UnlockRecipes: 3f000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 13}
+  - Name: T火力发电
+    ID: 1412
+    SID:
+    Desc: 火力发电描述
+    Conclusion: 火力发电结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1412
+    IsLabTech: 1
+    PreTechs: b1040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 5400
+    UnlockRecipes: 40000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: 9c080000
+    AddItemCounts: 01000000
+    Position: {x: 17, y: -11}
+  - Name: T钛矿冶炼
+    ID: 1413
+    SID:
+    Desc: 钛矿冶炼描述
+    Conclusion: 钛矿冶炼结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1413
+    IsLabTech: 1
+    PreTechs: 83050000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 36000
+    UnlockRecipes: 41000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 13}
+  - Name: T高强度钛合金
+    ID: 1414
+    SID:
+    Desc: 高强度钛合金描述
+    Conclusion: 高强度钛合金结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1414
+    IsLabTech: 1
+    PreTechs: 85050000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000002000000
+    HashNeeded: 144000
+    UnlockRecipes: 42000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: 13}
+  - Name: T移山填海工程
+    ID: 1415
+    SID:
+    Desc: 移山填海工程描述
+    Conclusion: 移山填海工程结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1415
+    IsLabTech: 1
+    PreTechs: 83050000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 72000
+    UnlockRecipes: 70000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 9}
+  - Name: T微型核聚变发电
+    ID: 1416
+    SID:
+    Desc: 微型核聚变发电描述
+    Conclusion: 微型核聚变发电结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1416
+    IsLabTech: 1
+    PreTechs: 6e040000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000000a00000005000000
+    HashNeeded: 180000
+    UnlockRecipes: 7100000029000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: -11}
+  - Name: T太阳能收集
+    ID: 1501
+    SID:
+    Desc: 太阳能收集描述
+    Conclusion: 太阳能收集结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1501
+    IsLabTech: 1
+    PreTechs: 7a050000ea030000b1040000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 28000000
+    HashNeeded: 18000
+    UnlockRecipes: 43000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: 9d080000
+    AddItemCounts: 01000000
+    Position: {x: 21, y: 1}
+  - Name: T光子变频
+    ID: 1502
+    SID:
+    Desc: 光子变频描述
+    Conclusion: 光子变频结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1502
+    IsLabTech: 1
+    PreTechs: dd050000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 36000
+    UnlockRecipes: 4400000045000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 1}
+  - Name: T太阳帆轨道系统
+    ID: 1503
+    SID:
+    Desc: 太阳帆轨道系统描述
+    Conclusion: 太阳帆轨道系统结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1503
+    IsLabTech: 1
+    PreTechs: de050000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 54000
+    UnlockRecipes: 4600000047000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 1}
+  - Name: T射线接收站
+    ID: 1504
+    SID:
+    Desc: 射线接收站描述
+    Conclusion: 射线接收站结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1504
+    IsLabTech: 1
+    PreTechs: df050000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 108000
+    UnlockRecipes: 48000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: 1}
+  - Name: T行星电离层利用
+    ID: 1505
+    SID:
+    Desc: 行星电离层利用描述
+    Conclusion: 行星电离层利用结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1505
+    IsLabTech: 1
+    PreTechs: e0050000
+    PreTechsImplicit:
+    Items: 71170000721700007317000075170000
+    ItemPoints: 14000000140000001400000014000000
+    HashNeeded: 360000
+    UnlockRecipes:
+    UnlockFunctions: 08000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 49, y: 1}
+  - Name: T狄拉克逆变机制
+    ID: 1506
+    SID:
+    Desc: 狄拉克逆变机制描述
+    Conclusion: 狄拉克逆变机制结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1506
+    IsLabTech: 1
+    PreTechs: e1050000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 140000001400000005000000050000000a000000
+    HashNeeded: 540000
+    UnlockRecipes: 4a000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 53, y: 1}
+  - Name: T宇宙矩阵
+    ID: 1507
+    SID:
+    Desc: 宇宙矩阵描述
+    Conclusion: 宇宙矩阵结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1507
+    IsLabTech: 1
+    PreTechs: e2050000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0a0000000a0000000a0000000a0000000a000000
+    HashNeeded: 720000
+    UnlockRecipes: 4b000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 65, y: 1}
+  - Name: T任务完成
+    ID: 1508
+    SID:
+    Desc: 任务完成描述
+    Conclusion: 任务完成结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1508
+    IsLabTech: 1
+    PreTechs: e3050000
+    PreTechsImplicit:
+    Items: 76170000
+    ItemPoints: 04000000
+    HashNeeded: 3600000
+    UnlockRecipes:
+    UnlockFunctions: 63000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 69, y: 1}
+  - Name: T能量储存
+    ID: 1511
+    SID:
+    Desc: 能量储存描述
+    Conclusion: 能量储存结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1511
+    IsLabTech: 1
+    PreTechs: 7b050000dd050000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 108000
+    UnlockRecipes: 4c000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 5}
+  - Name: T星际电力运输
+    ID: 1512
+    SID:
+    Desc: 星际电力运输描述
+    Conclusion: 星际电力运输结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1512
+    IsLabTech: 1
+    PreTechs: 86050000e7050000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000002000000
+    HashNeeded: 216000
+    UnlockRecipes: 4d000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: 9}
+  - Name: T高强度轻质结构
+    ID: 1521
+    SID:
+    Desc: 高强度轻质结构描述
+    Conclusion: 高强度轻质结构结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1521
+    IsLabTech: 1
+    PreTechs: df050000
+    PreTechsImplicit:
+    Items: 7117000073170000
+    ItemPoints: 0c00000002000000
+    HashNeeded: 360000
+    UnlockRecipes: 5000000051000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: 5}
+  - Name: T垂直发射井
+    ID: 1522
+    SID:
+    Desc: 垂直发射井描述
+    Conclusion: 垂直发射井结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1522
+    IsLabTech: 1
+    PreTechs: f1050000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0a0000000a0000000a0000000a000000
+    HashNeeded: 576000
+    UnlockRecipes: 5200000053000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 45, y: 5}
+  - Name: T戴森球应力系统
+    ID: 1523
+    SID:
+    Desc: 戴森球应力系统描述
+    Conclusion: 戴森球应力系统结果
+    Published: 1
+    Level: 1
+    MaxLevel: 6
+    LevelCoef1: 180000
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1523
+    IsLabTech: 1
+    PreTechs: f2050000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 1400000014000000140000001400000014000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 1a000000
+    UnlockValues:
+    - 15
+    AddItems:
+    AddItemCounts:
+    Position: {x: 49, y: 5}
+  - Name: T基础物流系统
+    ID: 1601
+    SID:
+    Desc: 基础物流系统描述
+    Conclusion: 基础物流系统结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1601
+    IsLabTech: 0
+    PreTechs: e9030000
+    PreTechsImplicit:
+    Items: 15050000b1040000
+    ItemPoints: 1400000014000000
+    HashNeeded: 1800
+    UnlockRecipes: 540000005500000056000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: d1070000db070000
+    AddItemCounts: 1400000005000000
+    Position: {x: 13, y: 17}
+  - Name: T改良物流系统
+    ID: 1602
+    SID:
+    Desc: 改良物流系统描述
+    Conclusion: 改良物流系统结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1602
+    IsLabTech: 1
+    PreTechs: 41060000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 18000
+    UnlockRecipes: 5700000058000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems: e4070000dc070000
+    AddItemCounts: 0100000005000000
+    Position: {x: 17, y: 17}
+  - Name: T高效物流系统
+    ID: 1603
+    SID:
+    Desc: 高效物流系统描述
+    Conclusion: 高效物流系统结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1603
+    IsLabTech: 1
+    PreTechs: 42060000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000005000000
+    HashNeeded: 72000
+    UnlockRecipes: 590000005a0000005b000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 17}
+  - Name: T行星物流系统
+    ID: 1604
+    SID:
+    Desc: 行星物流系统描述
+    Conclusion: 行星物流系统结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1604
+    IsLabTech: 1
+    PreTechs: 43060000
+    PreTechsImplicit: 59040000750e0000
+    Items: 7117000072170000
+    ItemPoints: 140000000a000000
+    HashNeeded: 144000
+    UnlockRecipes: 5c0000005d0000005e000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 17}
+  - Name: T星际物流系统
+    ID: 1605
+    SID:
+    Desc: 星际物流系统描述
+    Conclusion: 星际物流系统结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1605
+    IsLabTech: 1
+    PreTechs: 4406000086050000
+    PreTechsImplicit: 5a040000
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000002000000
+    HashNeeded: 216000
+    UnlockRecipes: 5f00000060000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: 17}
+  - Name: T气态行星开采
+    ID: 1606
+    SID:
+    Desc: 气态行星开采描述
+    Conclusion: 气态行星开采结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1606
+    IsLabTech: 1
+    PreTechs: 45060000e8050000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0a0000000a0000000a000000
+    HashNeeded: 432000
+    UnlockRecipes: 6f000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 41, y: 13}
+  - Name: T电磁驱动
+    ID: 1701
+    SID:
+    Desc: 电磁驱动描述
+    Conclusion: 电磁驱动结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1701
+    IsLabTech: 1
+    PreTechs: e9030000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 9000
+    UnlockRecipes: 61000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -35}
+  - Name: T磁悬浮技术
+    ID: 1702
+    SID:
+    Desc: 磁悬浮技术描述
+    Conclusion: 磁悬浮技术结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1702
+    IsLabTech: 1
+    PreTechs: a5060000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000005000000
+    HashNeeded: 72000
+    UnlockRecipes: 62000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -35}
+  - Name: T粒子磁力阱
+    ID: 1703
+    SID:
+    Desc: 粒子磁力阱描述
+    Conclusion: 粒子磁力阱结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1703
+    IsLabTech: 1
+    PreTechs: a6060000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 140000000a000000
+    HashNeeded: 288000
+    UnlockRecipes: 6300000064000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -35}
+  - Name: T引力波折射
+    ID: 1704
+    SID:
+    Desc: 引力波折射描述
+    Conclusion: 引力波折射结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1704
+    IsLabTech: 1
+    PreTechs: 77040000a7060000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 360000
+    UnlockRecipes: 650000004e000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 45, y: -35}
+  - Name: T引力矩阵
+    ID: 1705
+    SID:
+    Desc: 引力矩阵描述
+    Conclusion: 引力矩阵结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1705
+    IsLabTech: 1
+    PreTechs: 17050000a8060000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0a0000000a0000000a000000
+    HashNeeded: 576000
+    UnlockRecipes: 660000004f000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 49, y: -27}
+  - Name: T超级磁场发生器
+    ID: 1711
+    SID:
+    Desc: 超级磁场发生器描述
+    Conclusion: 超级磁场发生器结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1711
+    IsLabTech: 1
+    PreTechs: a6060000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 1400000005000000
+    HashNeeded: 180000
+    UnlockRecipes: 67000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -39}
+  - Name: T卫星配电系统
+    ID: 1712
+    SID:
+    Desc: 卫星配电系统描述
+    Conclusion: 卫星配电系统结果
+    Published: 1
+    Level: 0
+    MaxLevel: 0
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/1712
+    IsLabTech: 1
+    PreTechs: af060000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 240000
+    UnlockRecipes: 49000000
+    UnlockFunctions:
+    UnlockValues: []
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -39}
+  - Name: T机甲核心
+    ID: 2101
+    SID:
+    Desc: 机甲核心描述
+    Conclusion: 机甲核心结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2101
+    IsLabTech: 0
+    PreTechs:
+    PreTechsImplicit:
+    Items: 4d04000050040000
+    ItemPoints: 1400000014000000
+    HashNeeded: 3600
+    UnlockRecipes:
+    UnlockFunctions: 06000000
+    UnlockValues:
+    - 40000000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 25}
+  - Name: T机甲核心
+    ID: 2102
+    SID:
+    Desc: 机甲核心描述2
+    Conclusion: 机甲核心结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2102
+    IsLabTech: 1
+    PreTechs: 35080000
+    PreTechsImplicit:
+    Items: 7117000072170000
+    ItemPoints: 0a0000000a000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 06000000
+    UnlockValues:
+    - 240000000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 25}
+  - Name: T机甲核心
+    ID: 2103
+    SID:
+    Desc: 机甲核心描述2
+    Conclusion: 机甲核心结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2103
+    IsLabTech: 1
+    PreTechs: 36080000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0a0000000a0000000a000000
+    HashNeeded: 108000
+    UnlockRecipes:
+    UnlockFunctions: 06000000
+    UnlockValues:
+    - 400000000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 25}
+  - Name: T机甲核心
+    ID: 2104
+    SID:
+    Desc: 机甲核心描述2
+    Conclusion: 机甲核心结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2104
+    IsLabTech: 1
+    PreTechs: 37080000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 06000000060000000600000006000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 06000000
+    UnlockValues:
+    - 800000000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 25}
+  - Name: T机甲核心
+    ID: 2105
+    SID:
+    Desc: 机甲核心描述2
+    Conclusion: 机甲核心结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2105
+    IsLabTech: 1
+    PreTechs: 38080000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0200000002000000020000000200000002000000
+    HashNeeded: 1440000
+    UnlockRecipes:
+    UnlockFunctions: 06000000
+    UnlockValues:
+    - 1600000000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 25}
+  - Name: T机甲核心
+    ID: 2106
+    SID:
+    Desc: 机甲核心描述2
+    Conclusion: 机甲核心结果
+    Published: 1
+    Level: 6
+    MaxLevel: 10000
+    LevelCoef1: -8100000
+    LevelCoef2: 900000
+    IconPath: Icons/Tech/2106
+    IsLabTech: 1
+    PreTechs: 39080000
+    PreTechsImplicit:
+    Items: 76170000
+    ItemPoints: 02000000
+    HashNeeded: 18000000
+    UnlockRecipes:
+    UnlockFunctions: 06000000
+    UnlockValues:
+    - 2400000000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 25}
+  - Name: T机械骨骼
+    ID: 2201
+    SID:
+    Desc: 机械骨骼描述
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2201
+    IsLabTech: 0
+    PreTechs:
+    PreTechsImplicit: 35080000
+    Items: b3040000
+    ItemPoints: 1e000000
+    HashNeeded: 7200
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 21}
+  - Name: T机械骨骼
+    ID: 2202
+    SID:
+    Desc: 机械骨骼描述2
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2202
+    IsLabTech: 1
+    PreTechs: 99080000
+    PreTechsImplicit: 35080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 21}
+  - Name: T机械骨骼
+    ID: 2203
+    SID:
+    Desc: 机械骨骼描述2
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2203
+    IsLabTech: 1
+    PreTechs: 9a080000
+    PreTechsImplicit: 36080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 72000
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 21}
+  - Name: T机械骨骼
+    ID: 2204
+    SID:
+    Desc: 机械骨骼描述2
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2204
+    IsLabTech: 1
+    PreTechs: 9b080000
+    PreTechsImplicit: 36080000
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 21}
+  - Name: T机械骨骼
+    ID: 2205
+    SID:
+    Desc: 机械骨骼描述2
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2205
+    IsLabTech: 1
+    PreTechs: 9c080000
+    PreTechsImplicit: 37080000
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 240000
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 21}
+  - Name: T机械骨骼
+    ID: 2206
+    SID:
+    Desc: 机械骨骼描述2
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2206
+    IsLabTech: 1
+    PreTechs: 9d080000
+    PreTechsImplicit: 38080000
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 21}
+  - Name: T机械骨骼
+    ID: 2207
+    SID:
+    Desc: 机械骨骼描述2
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 7
+    MaxLevel: 7
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2207
+    IsLabTech: 1
+    PreTechs: 9e080000
+    PreTechsImplicit: 38080000
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 360000
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: 21}
+  - Name: T机械骨骼
+    ID: 2208
+    SID:
+    Desc: 机械骨骼描述2
+    Conclusion: 机械骨骼结果
+    Published: 1
+    Level: 8
+    MaxLevel: 8
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2208
+    IsLabTech: 1
+    PreTechs: 9f080000
+    PreTechsImplicit: 39080000
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0600000006000000060000000600000006000000
+    HashNeeded: 1200000
+    UnlockRecipes:
+    UnlockFunctions: 03000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: 21}
+  - Name: T机舱容量
+    ID: 2301
+    SID:
+    Desc: 机舱容量描述
+    Conclusion: 机舱容量结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2301
+    IsLabTech: 0
+    PreTechs:
+    PreTechsImplicit: 35080000
+    Items: 4f04000015050000
+    ItemPoints: 3c0000003c000000
+    HashNeeded: 7200
+    UnlockRecipes:
+    UnlockFunctions: 05000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 17}
+  - Name: T机舱容量
+    ID: 2302
+    SID:
+    Desc: 机舱容量描述
+    Conclusion: 机舱容量结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2302
+    IsLabTech: 1
+    PreTechs: fd080000
+    PreTechsImplicit: 35080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 05000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 17}
+  - Name: T机舱容量
+    ID: 2303
+    SID:
+    Desc: 机舱容量描述
+    Conclusion: 机舱容量结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2303
+    IsLabTech: 1
+    PreTechs: fe080000
+    PreTechsImplicit: 36080000
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 72000
+    UnlockRecipes:
+    UnlockFunctions: 05000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 17}
+  - Name: T机舱容量
+    ID: 2304
+    SID:
+    Desc: 机舱容量描述
+    Conclusion: 机舱容量结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2304
+    IsLabTech: 1
+    PreTechs: ff080000
+    PreTechsImplicit: 36080000
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 05000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 17}
+  - Name: T机舱容量
+    ID: 2305
+    SID:
+    Desc: 机舱容量描述
+    Conclusion: 机舱容量结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2305
+    IsLabTech: 1
+    PreTechs: 00090000
+    PreTechsImplicit: 37080000
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 240000
+    UnlockRecipes:
+    UnlockFunctions: 05000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 17}
+  - Name: T机舱容量
+    ID: 2306
+    SID:
+    Desc: 机舱容量描述
+    Conclusion: 机舱容量结果
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2306
+    IsLabTech: 1
+    PreTechs: 01090000
+    PreTechsImplicit: 39080000
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0600000006000000060000000600000006000000
+    HashNeeded: 600000
+    UnlockRecipes:
+    UnlockFunctions: 05000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 17}
+  - Name: T通讯控制
+    ID: 2401
+    SID:
+    Desc: 通讯控制描述
+    Conclusion: 通讯控制结果1
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2401
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: 35080000
+    Items: 71170000
+    ItemPoints: 28000000
+    HashNeeded: 9000
+    UnlockRecipes:
+    UnlockFunctions: 01000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 13}
+  - Name: T通讯控制
+    ID: 2402
+    SID:
+    Desc: 通讯控制描述2
+    Conclusion: 通讯控制结果2
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2402
+    IsLabTech: 1
+    PreTechs: 61090000
+    PreTechsImplicit: 35080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 01000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 13}
+  - Name: T通讯控制
+    ID: 2403
+    SID:
+    Desc: 通讯控制描述3
+    Conclusion: 通讯控制结果3
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2403
+    IsLabTech: 1
+    PreTechs: 62090000
+    PreTechsImplicit: 36080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 72000
+    UnlockRecipes:
+    UnlockFunctions: 09000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 13}
+  - Name: T通讯控制
+    ID: 2404
+    SID:
+    Desc: 通讯控制描述2
+    Conclusion: 通讯控制结果4
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2404
+    IsLabTech: 1
+    PreTechs: 63090000
+    PreTechsImplicit: 37080000
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 01000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 13}
+  - Name: T通讯控制
+    ID: 2405
+    SID:
+    Desc: 通讯控制描述2
+    Conclusion: 通讯控制结果5
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2405
+    IsLabTech: 1
+    PreTechs: 64090000
+    PreTechsImplicit: 38080000
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 01000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 13}
+  - Name: T通讯控制
+    ID: 2406
+    SID:
+    Desc: 通讯控制描述3
+    Conclusion: 通讯控制结果6
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2406
+    IsLabTech: 1
+    PreTechs: 65090000
+    PreTechsImplicit: 39080000
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0400000004000000040000000400000004000000
+    HashNeeded: 1440000
+    UnlockRecipes:
+    UnlockFunctions: 09000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 13}
+  - Name: T通讯控制
+    ID: 2407
+    SID:
+    Desc: 通讯控制描述2
+    Conclusion: 通讯控制结果7
+    Published: 1
+    Level: 7
+    MaxLevel: 10000
+    LevelCoef1: -21600000
+    LevelCoef2: 1800000
+    IconPath: Icons/Tech/2407
+    IsLabTech: 1
+    PreTechs: 66090000
+    PreTechsImplicit: 39080000
+    Items: 76170000
+    ItemPoints: 04000000
+    HashNeeded: 64800000
+    UnlockRecipes:
+    UnlockFunctions: 01000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: 13}
+  - Name: T能量回路
+    ID: 2501
+    SID:
+    Desc: 能量回路描述
+    Conclusion: 能量回路结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2501
+    IsLabTech: 0
+    PreTechs:
+    PreTechsImplicit: 35080000
+    Items: 06040000ee03000055040000
+    ItemPoints: 1e0000001e0000001e000000
+    HashNeeded: 7200
+    UnlockRecipes:
+    UnlockFunctions: 02000000
+    UnlockValues:
+    - 200000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 9}
+  - Name: T能量回路
+    ID: 2502
+    SID:
+    Desc: 能量回路描述
+    Conclusion: 能量回路结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2502
+    IsLabTech: 1
+    PreTechs: c5090000
+    PreTechsImplicit: 36080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 72000
+    UnlockRecipes:
+    UnlockFunctions: 02000000
+    UnlockValues:
+    - 200000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 9}
+  - Name: T能量回路
+    ID: 2503
+    SID:
+    Desc: 能量回路描述
+    Conclusion: 能量回路结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2503
+    IsLabTech: 1
+    PreTechs: c6090000
+    PreTechsImplicit: 37080000
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 216000
+    UnlockRecipes:
+    UnlockFunctions: 02000000
+    UnlockValues:
+    - 200000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 9}
+  - Name: T能量回路
+    ID: 2504
+    SID:
+    Desc: 能量回路描述
+    Conclusion: 能量回路结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2504
+    IsLabTech: 1
+    PreTechs: c7090000
+    PreTechsImplicit: 38080000
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 600000
+    UnlockRecipes:
+    UnlockFunctions: 02000000
+    UnlockValues:
+    - 200000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 9}
+  - Name: T能量回路
+    ID: 2505
+    SID:
+    Desc: 能量回路描述
+    Conclusion: 能量回路结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2505
+    IsLabTech: 1
+    PreTechs: c8090000
+    PreTechsImplicit: 39080000
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0400000004000000040000000400000004000000
+    HashNeeded: 2700000
+    UnlockRecipes:
+    UnlockFunctions: 02000000
+    UnlockValues:
+    - 800000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 9}
+  - Name: T能量回路
+    ID: 2506
+    SID:
+    Desc: 能量回路描述
+    Conclusion: 能量回路结果
+    Published: 1
+    Level: 6
+    MaxLevel: 10000
+    LevelCoef1: -16200000
+    LevelCoef2: 1800000
+    IconPath: Icons/Tech/2506
+    IsLabTech: 1
+    PreTechs: c9090000
+    PreTechsImplicit: 39080000
+    Items: 76170000
+    ItemPoints: 04000000
+    HashNeeded: 36000000
+    UnlockRecipes:
+    UnlockFunctions: 02000000
+    UnlockValues:
+    - 1000000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 9}
+  - Name: T无人机引擎
+    ID: 2601
+    SID:
+    Desc: 无人机引擎描述
+    Conclusion: 无人机引擎结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2601
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: 35080000
+    Items: 71170000
+    ItemPoints: 28000000
+    HashNeeded: 18000
+    UnlockRecipes:
+    UnlockFunctions: 0a000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 5}
+  - Name: T无人机引擎
+    ID: 2602
+    SID:
+    Desc: 无人机引擎描述2
+    Conclusion: 无人机引擎结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2602
+    IsLabTech: 1
+    PreTechs: 290a0000
+    PreTechsImplicit: 36080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 72000
+    UnlockRecipes:
+    UnlockFunctions: 0a000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 5}
+  - Name: T无人机引擎
+    ID: 2603
+    SID:
+    Desc: 无人机引擎描述2
+    Conclusion: 无人机引擎结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2603
+    IsLabTech: 1
+    PreTechs: 2a0a0000
+    PreTechsImplicit: 37080000
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 144000
+    UnlockRecipes:
+    UnlockFunctions: 0a000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 5}
+  - Name: T无人机引擎
+    ID: 2604
+    SID:
+    Desc: 无人机引擎描述2
+    Conclusion: 无人机引擎结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2604
+    IsLabTech: 1
+    PreTechs: 2b0a0000
+    PreTechsImplicit: 38080000
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 360000
+    UnlockRecipes:
+    UnlockFunctions: 0a000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 5}
+  - Name: T无人机引擎
+    ID: 2605
+    SID:
+    Desc: 无人机引擎描述2
+    Conclusion: 无人机引擎结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2605
+    IsLabTech: 1
+    PreTechs: 2c0a0000
+    PreTechsImplicit: 39080000
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0400000004000000040000000400000004000000
+    HashNeeded: 1440000
+    UnlockRecipes:
+    UnlockFunctions: 0a000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: 5}
+  - Name: T无人机引擎
+    ID: 2606
+    SID:
+    Desc: 无人机引擎描述2
+    Conclusion: 无人机引擎结果
+    Published: 1
+    Level: 6
+    MaxLevel: 20
+    LevelCoef1: -18000000
+    LevelCoef2: 1800000
+    IconPath: Icons/Tech/2606
+    IsLabTech: 1
+    PreTechs: 2d0a0000
+    PreTechsImplicit: 39080000
+    Items: 76170000
+    ItemPoints: 04000000
+    HashNeeded: 45000000
+    UnlockRecipes:
+    UnlockFunctions: 0a000000
+    UnlockValues:
+    - 3
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: 5}
+  - Name: T驱动引擎
+    ID: 2901
+    SID:
+    Desc: 驱动引擎描述
+    Conclusion: 驱动引擎结果1
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2901
+    IsLabTech: 0
+    PreTechs:
+    PreTechsImplicit: 35080000
+    Items: ee030000b2040000
+    ItemPoints: 3200000014000000
+    HashNeeded: 10800
+    UnlockRecipes:
+    UnlockFunctions: 04000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 1}
+  - Name: T驱动引擎
+    ID: 2902
+    SID:
+    Desc: 驱动引擎描述2
+    Conclusion: 驱动引擎结果2
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2902
+    IsLabTech: 1
+    PreTechs: 550b0000
+    PreTechsImplicit: 36080000
+    Items: 7117000072170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 04000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 1}
+  - Name: T驱动引擎
+    ID: 2903
+    SID:
+    Desc: 驱动引擎描述3
+    Conclusion: 驱动引擎结果3
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2903
+    IsLabTech: 1
+    PreTechs: 560b0000
+    PreTechsImplicit: 37080000
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 0b000000
+    UnlockValues:
+    - 1000
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 1}
+  - Name: T驱动引擎
+    ID: 2904
+    SID:
+    Desc: 驱动引擎描述4
+    Conclusion: 驱动引擎结果4
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/2904
+    IsLabTech: 1
+    PreTechs: 570b0000
+    PreTechsImplicit: 38080000a8060000
+    Items: 711700007217000073170000
+    ItemPoints: 0a0000000a0000000a000000
+    HashNeeded: 720000
+    UnlockRecipes:
+    UnlockFunctions: 04000000
+    UnlockValues:
+    - 3
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 1}
+  - Name: T太阳帆寿命
+    ID: 3101
+    SID:
+    Desc: 太阳帆寿命描述
+    Conclusion: 太阳帆寿命结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3101
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: df050000
+    Items: 711700007217000073170000
+    ItemPoints: 280000002800000028000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 0c000000
+    UnlockValues:
+    - 150
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -7}
+  - Name: T太阳帆寿命
+    ID: 3102
+    SID:
+    Desc: 太阳帆寿命描述
+    Conclusion: 太阳帆寿命结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3102
+    IsLabTech: 1
+    PreTechs: 1d0c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 108000
+    UnlockRecipes:
+    UnlockFunctions: 0c000000
+    UnlockValues:
+    - 150
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -7}
+  - Name: T太阳帆寿命
+    ID: 3103
+    SID:
+    Desc: 太阳帆寿命描述
+    Conclusion: 太阳帆寿命结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3103
+    IsLabTech: 1
+    PreTechs: 1e0c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 144000
+    UnlockRecipes:
+    UnlockFunctions: 0c000000
+    UnlockValues:
+    - 300
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -7}
+  - Name: T太阳帆寿命
+    ID: 3104
+    SID:
+    Desc: 太阳帆寿命描述
+    Conclusion: 太阳帆寿命结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3104
+    IsLabTech: 1
+    PreTechs: 1f0c0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 0c000000
+    UnlockValues:
+    - 300
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -7}
+  - Name: T太阳帆寿命
+    ID: 3105
+    SID:
+    Desc: 太阳帆寿命描述
+    Conclusion: 太阳帆寿命结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3105
+    IsLabTech: 1
+    PreTechs: 200c0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 480000
+    UnlockRecipes:
+    UnlockFunctions: 0c000000
+    UnlockValues:
+    - 450
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -7}
+  - Name: T太阳帆寿命
+    ID: 3106
+    SID:
+    Desc: 太阳帆寿命描述
+    Conclusion: 太阳帆寿命结果
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3106
+    IsLabTech: 1
+    PreTechs: 210c0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 06000000060000000600000006000000
+    HashNeeded: 1200000
+    UnlockRecipes:
+    UnlockFunctions: 0c000000
+    UnlockValues:
+    - 450
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -7}
+  - Name: T射线传输效率
+    ID: 3201
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3201
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: e0050000
+    Items: 711700007217000073170000
+    ItemPoints: 280000002800000028000000
+    HashNeeded: 54000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.9
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -11}
+  - Name: T射线传输效率
+    ID: 3202
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3202
+    IsLabTech: 1
+    PreTechs: 810c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 144000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.9
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -11}
+  - Name: T射线传输效率
+    ID: 3203
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3203
+    IsLabTech: 1
+    PreTechs: 820c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.9
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -11}
+  - Name: T射线传输效率
+    ID: 3204
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3204
+    IsLabTech: 1
+    PreTechs: 830c0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 360000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.9
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -11}
+  - Name: T射线传输效率
+    ID: 3205
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3205
+    IsLabTech: 1
+    PreTechs: 840c0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 420000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.9
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -11}
+  - Name: T射线传输效率
+    ID: 3206
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3206
+    IsLabTech: 1
+    PreTechs: 850c0000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0c0000000c0000000c0000000c0000000c000000
+    HashNeeded: 480000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.9
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -11}
+  - Name: T射线传输效率
+    ID: 3207
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 7
+    MaxLevel: 7
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3207
+    IsLabTech: 1
+    PreTechs: 860c0000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0400000004000000040000000400000004000000
+    HashNeeded: 1620000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.85
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: -11}
+  - Name: T射线传输效率
+    ID: 3208
+    SID:
+    Desc: 射线传输效率描述
+    Conclusion: 射线传输效率结果
+    Published: 1
+    Level: 8
+    MaxLevel: 10000
+    LevelCoef1: 1800000
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3208
+    IsLabTech: 1
+    PreTechs: 870c0000
+    PreTechsImplicit:
+    Items: 76170000
+    ItemPoints: 04000000
+    HashNeeded: -12600000
+    UnlockRecipes:
+    UnlockFunctions: 0d000000
+    UnlockValues:
+    - 0.85
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -11}
+  - Name: T分拣器货物叠加
+    ID: 3301
+    SID:
+    Desc: 分拣器货物叠加描述
+    Conclusion: 分拣器货物叠加结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3301
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: 43060000
+    Items: 711700007217000073170000
+    ItemPoints: 280000002800000028000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 0e000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -19}
+  - Name: T分拣器货物叠加
+    ID: 3302
+    SID:
+    Desc: 分拣器货物叠加描述
+    Conclusion: 分拣器货物叠加结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3302
+    IsLabTech: 1
+    PreTechs: e50c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 108000
+    UnlockRecipes:
+    UnlockFunctions: 0e000000
+    UnlockValues:
+    - 3
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -19}
+  - Name: T分拣器货物叠加
+    ID: 3303
+    SID:
+    Desc: 分拣器货物叠加描述
+    Conclusion: 分拣器货物叠加结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3303
+    IsLabTech: 1
+    PreTechs: e60c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 144000
+    UnlockRecipes:
+    UnlockFunctions: 0e000000
+    UnlockValues:
+    - 4
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -19}
+  - Name: T分拣器货物叠加
+    ID: 3304
+    SID:
+    Desc: 分拣器货物叠加描述
+    Conclusion: 分拣器货物叠加结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3304
+    IsLabTech: 1
+    PreTechs: e70c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 0e000000
+    UnlockValues:
+    - 5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -19}
+  - Name: T分拣器货物叠加
+    ID: 3305
+    SID:
+    Desc: 分拣器货物叠加描述
+    Conclusion: 分拣器货物叠加结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3305
+    IsLabTech: 1
+    PreTechs: e80c0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 060000000600000006000000
+    HashNeeded: 900000
+    UnlockRecipes:
+    UnlockFunctions: 0e000000
+    UnlockValues:
+    - 6
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -19}
+  - Name: T运输船引擎
+    ID: 3401
+    SID:
+    Desc: 运输船引擎描述
+    Conclusion: 运输船引擎结果1
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3401
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: 44060000
+    Items: 711700007217000073170000
+    ItemPoints: 280000002800000028000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 0f000000
+    UnlockValues:
+    - 0.2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -23}
+  - Name: T运输船引擎
+    ID: 3402
+    SID:
+    Desc: 运输船引擎描述
+    Conclusion: 运输船引擎结果2
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3402
+    IsLabTech: 1
+    PreTechs: 490d0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 108000
+    UnlockRecipes:
+    UnlockFunctions: 0f000000
+    UnlockValues:
+    - 0.2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -23}
+  - Name: T运输船引擎
+    ID: 3403
+    SID:
+    Desc: 运输船引擎描述2
+    Conclusion: 运输船引擎结果3
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3403
+    IsLabTech: 1
+    PreTechs: 4a0d0000
+    PreTechsImplicit: 45060000
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 144000
+    UnlockRecipes:
+    UnlockFunctions: 0f00000010000000
+    UnlockValues:
+    - 0.3
+    - 0.5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -23}
+  - Name: T运输船引擎
+    ID: 3404
+    SID:
+    Desc: 运输船引擎描述3
+    Conclusion: 运输船引擎结果4
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3404
+    IsLabTech: 1
+    PreTechs: 4b0d0000
+    PreTechsImplicit: 580b0000
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 0f0000001000000011000000
+    UnlockValues:
+    - 0.3
+    - 0.5
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -23}
+  - Name: T运输船引擎
+    ID: 3405
+    SID:
+    Desc: 运输船引擎描述2
+    Conclusion: 运输船引擎结果5
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3405
+    IsLabTech: 1
+    PreTechs: 4c0d0000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0c0000000c0000000c0000000c0000000c000000
+    HashNeeded: 360000
+    UnlockRecipes:
+    UnlockFunctions: 0f00000010000000
+    UnlockValues:
+    - 0.4
+    - 0.5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -23}
+  - Name: T运输船引擎
+    ID: 3406
+    SID:
+    Desc: 运输船引擎描述2
+    Conclusion: 运输船引擎结果6
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3406
+    IsLabTech: 1
+    PreTechs: 4d0d0000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0400000004000000040000000400000004000000
+    HashNeeded: 1440000
+    UnlockRecipes:
+    UnlockFunctions: 0f00000010000000
+    UnlockValues:
+    - 0.4
+    - 0.5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -23}
+  - Name: T运输船引擎
+    ID: 3407
+    SID:
+    Desc: 运输船引擎描述2
+    Conclusion: 运输船引擎结果7
+    Published: 1
+    Level: 7
+    MaxLevel: 10000
+    LevelCoef1: -21600000
+    LevelCoef2: 1800000
+    IconPath: Icons/Tech/3407
+    IsLabTech: 1
+    PreTechs: 4e0d0000
+    PreTechsImplicit:
+    Items: 76170000
+    ItemPoints: 04000000
+    HashNeeded: 64800000
+    UnlockRecipes:
+    UnlockFunctions: 0f00000010000000
+    UnlockValues:
+    - 0.5
+    - 0.5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: -23}
+  - Name: T运输机舱扩容
+    ID: 3501
+    SID:
+    Desc: 运输机舱扩容描述
+    Conclusion: 运输机舱扩容结果1
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3501
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: 44060000
+    Items: 711700007217000073170000
+    ItemPoints: 280000002800000028000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 12000000
+    UnlockValues:
+    - 5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -27}
+  - Name: T运输机舱扩容
+    ID: 3502
+    SID:
+    Desc: 运输机舱扩容描述2
+    Conclusion: 运输机舱扩容结果2
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3502
+    IsLabTech: 1
+    PreTechs: ad0d0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 108000
+    UnlockRecipes:
+    UnlockFunctions: 12000000
+    UnlockValues:
+    - 5
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -27}
+  - Name: T运输机舱扩容
+    ID: 3503
+    SID:
+    Desc: 运输机舱扩容描述3
+    Conclusion: 运输机舱扩容结果3
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3503
+    IsLabTech: 1
+    PreTechs: ae0d0000
+    PreTechsImplicit: 45060000
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 144000
+    UnlockRecipes:
+    UnlockFunctions: 1200000013000000
+    UnlockValues:
+    - 5
+    - 100
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -27}
+  - Name: T运输机舱扩容
+    ID: 3504
+    SID:
+    Desc: 运输机舱扩容描述4
+    Conclusion: 运输机舱扩容结果4
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3504
+    IsLabTech: 1
+    PreTechs: af0d0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 1200000013000000
+    UnlockValues:
+    - 10
+    - 100
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -27}
+  - Name: T运输机舱扩容
+    ID: 3505
+    SID:
+    Desc: 运输机舱扩容描述4
+    Conclusion: 运输机舱扩容结果5
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3505
+    IsLabTech: 1
+    PreTechs: b00d0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 06000000060000000600000006000000
+    HashNeeded: 720000
+    UnlockRecipes:
+    UnlockFunctions: 1200000013000000
+    UnlockValues:
+    - 10
+    - 100
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -27}
+  - Name: T运输机舱扩容
+    ID: 3506
+    SID:
+    Desc: 运输机舱扩容描述4
+    Conclusion: 运输机舱扩容结果5
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3506
+    IsLabTech: 1
+    PreTechs: b10d0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 06000000060000000600000006000000
+    HashNeeded: 960000
+    UnlockRecipes:
+    UnlockFunctions: 1200000013000000
+    UnlockValues:
+    - 10
+    - 100
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -27}
+  - Name: T运输机舱扩容
+    ID: 3507
+    SID:
+    Desc: 运输机舱扩容描述4
+    Conclusion: 运输机舱扩容结果5
+    Published: 1
+    Level: 7
+    MaxLevel: 7
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3507
+    IsLabTech: 1
+    PreTechs: b20d0000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0300000003000000030000000300000003000000
+    HashNeeded: 2400000
+    UnlockRecipes:
+    UnlockFunctions: 1200000013000000
+    UnlockValues:
+    - 10
+    - 200
+    AddItems:
+    AddItemCounts:
+    Position: {x: 33, y: -27}
+  - Name: T运输机舱扩容
+    ID: 3508
+    SID:
+    Desc: 运输机舱扩容描述4
+    Conclusion: 运输机舱扩容结果5
+    Published: 1
+    Level: 8
+    MaxLevel: 8
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3508
+    IsLabTech: 1
+    PreTechs: b30d0000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0300000003000000030000000300000003000000
+    HashNeeded: 4800000
+    UnlockRecipes:
+    UnlockFunctions: 1200000013000000
+    UnlockValues:
+    - 20
+    - 200
+    AddItems:
+    AddItemCounts:
+    Position: {x: 37, y: -27}
+  - Name: T矿物利用
+    ID: 3601
+    SID:
+    Desc: 矿物利用描述
+    Conclusion: 矿物利用结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3601
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: e9030000
+    Items: 7117000072170000
+    ItemPoints: 2800000028000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 1400000015000000
+    UnlockValues:
+    - 0.94
+    - 0.1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -31}
+  - Name: T矿物利用
+    ID: 3602
+    SID:
+    Desc: 矿物利用描述2
+    Conclusion: 矿物利用结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3602
+    IsLabTech: 1
+    PreTechs: 110e0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 140000001400000014000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 1400000015000000
+    UnlockValues:
+    - 0.94
+    - 0.1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -31}
+  - Name: T矿物利用
+    ID: 3603
+    SID:
+    Desc: 矿物利用描述2
+    Conclusion: 矿物利用结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3603
+    IsLabTech: 1
+    PreTechs: 120e0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 14000000140000001400000014000000
+    HashNeeded: 180000
+    UnlockRecipes:
+    UnlockFunctions: 1400000015000000
+    UnlockValues:
+    - 0.94
+    - 0.1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -31}
+  - Name: T矿物利用
+    ID: 3604
+    SID:
+    Desc: 矿物利用描述2
+    Conclusion: 矿物利用结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3604
+    IsLabTech: 1
+    PreTechs: 130e0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000074170000
+    ItemPoints: 0c0000000c0000000c0000000c000000
+    HashNeeded: 480000
+    UnlockRecipes:
+    UnlockFunctions: 1400000015000000
+    UnlockValues:
+    - 0.94
+    - 0.1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -31}
+  - Name: T矿物利用
+    ID: 3605
+    SID:
+    Desc: 矿物利用描述2
+    Conclusion: 矿物利用结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3605
+    IsLabTech: 1
+    PreTechs: 140e0000
+    PreTechsImplicit:
+    Items: 7117000072170000731700007417000075170000
+    ItemPoints: 0400000004000000040000000400000004000000
+    HashNeeded: 1800000
+    UnlockRecipes:
+    UnlockFunctions: 1400000015000000
+    UnlockValues:
+    - 0.94
+    - 0.1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -31}
+  - Name: T矿物利用
+    ID: 3606
+    SID:
+    Desc: 矿物利用描述2
+    Conclusion: 矿物利用结果
+    Published: 1
+    Level: 6
+    MaxLevel: 10000
+    LevelCoef1: 3600000
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3606
+    IsLabTech: 1
+    PreTechs: 150e0000
+    PreTechsImplicit:
+    Items: 76170000
+    ItemPoints: 04000000
+    HashNeeded: -18000000
+    UnlockRecipes:
+    UnlockFunctions: 1400000015000000
+    UnlockValues:
+    - 0.94
+    - 0.1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -31}
+  - Name: T垂直建造
+    ID: 3701
+    SID:
+    Desc: 垂直建造描述
+    Conclusion: 垂直建造结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3701
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: 41060000
+    Items: 72170000
+    ItemPoints: 28000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 1800000019000000
+    UnlockValues:
+    - 1
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -15}
+  - Name: T垂直建造
+    ID: 3702
+    SID:
+    Desc: 垂直建造描述
+    Conclusion: 垂直建造结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3702
+    IsLabTech: 1
+    PreTechs: 750e0000
+    PreTechsImplicit:
+    Items: 72170000
+    ItemPoints: 14000000
+    HashNeeded: 108000
+    UnlockRecipes:
+    UnlockFunctions: 1800000019000000
+    UnlockValues:
+    - 1
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -15}
+  - Name: T垂直建造
+    ID: 3703
+    SID:
+    Desc: 垂直建造描述
+    Conclusion: 垂直建造结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3703
+    IsLabTech: 1
+    PreTechs: 760e0000
+    PreTechsImplicit:
+    Items: 7217000073170000
+    ItemPoints: 1400000014000000
+    HashNeeded: 144000
+    UnlockRecipes:
+    UnlockFunctions: 1800000019000000
+    UnlockValues:
+    - 1
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -15}
+  - Name: T垂直建造
+    ID: 3704
+    SID:
+    Desc: 垂直建造描述
+    Conclusion: 垂直建造结果
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3704
+    IsLabTech: 1
+    PreTechs: 770e0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 1800000019000000
+    UnlockValues:
+    - 1
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -15}
+  - Name: T垂直建造
+    ID: 3705
+    SID:
+    Desc: 垂直建造描述
+    Conclusion: 垂直建造结果
+    Published: 1
+    Level: 5
+    MaxLevel: 5
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3705
+    IsLabTech: 1
+    PreTechs: 780e0000
+    PreTechsImplicit:
+    Items: 711700007217000073170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 480000
+    UnlockRecipes:
+    UnlockFunctions: 1800000019000000
+    UnlockValues:
+    - 1
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 25, y: -15}
+  - Name: T垂直建造
+    ID: 3706
+    SID:
+    Desc: 垂直建造描述
+    Conclusion: 垂直建造结果
+    Published: 1
+    Level: 6
+    MaxLevel: 6
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3706
+    IsLabTech: 1
+    PreTechs: 790e0000
+    PreTechsImplicit:
+    Items: 71170000721700007317000075170000
+    ItemPoints: 06000000060000000600000006000000
+    HashNeeded: 1200000
+    UnlockRecipes:
+    UnlockFunctions: 1800000019000000
+    UnlockValues:
+    - 1
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 29, y: -15}
+  - Name: T研究速度
+    ID: 3901
+    SID:
+    Desc: 研究速度描述
+    Conclusion: 研究速度结果
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3901
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit: 20050000
+    Items: 74170000
+    ItemPoints: 06000000
+    HashNeeded: 600000
+    UnlockRecipes:
+    UnlockFunctions: 16000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: -35}
+  - Name: T研究速度
+    ID: 3902
+    SID:
+    Desc: 研究速度描述
+    Conclusion: 研究速度结果
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3902
+    IsLabTech: 1
+    PreTechs: 3d0f0000
+    PreTechsImplicit:
+    Items: 74170000
+    ItemPoints: 06000000
+    HashNeeded: 1200000
+    UnlockRecipes:
+    UnlockFunctions: 16000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: -35}
+  - Name: T研究速度
+    ID: 3903
+    SID:
+    Desc: 研究速度描述
+    Conclusion: 研究速度结果
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3903
+    IsLabTech: 1
+    PreTechs: 3e0f0000
+    PreTechsImplicit:
+    Items: 74170000
+    ItemPoints: 06000000
+    HashNeeded: 2400000
+    UnlockRecipes:
+    UnlockFunctions: 16000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: -35}
+  - Name: T研究速度
+    ID: 3904
+    SID:
+    Desc: 研究速度描述
+    Conclusion: 研究速度结果
+    Published: 1
+    Level: 4
+    MaxLevel: 10000
+    LevelCoef1: 14400000
+    LevelCoef2: 0
+    IconPath: Icons/Tech/3904
+    IsLabTech: 1
+    PreTechs: 3f0f0000
+    PreTechsImplicit:
+    Items: 76170000
+    ItemPoints: 02000000
+    HashNeeded: -43200000
+    UnlockRecipes:
+    UnlockFunctions: 16000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: -35}
+  - Name: T宇宙探索
+    ID: 4101
+    SID:
+    Desc: 宇宙探索描述1
+    Conclusion: 宇宙探索结果1
+    Published: 1
+    Level: 1
+    MaxLevel: 1
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/4101
+    IsLabTech: 1
+    PreTechs:
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 1800
+    UnlockRecipes:
+    UnlockFunctions: 17000000
+    UnlockValues:
+    - 1
+    AddItems:
+    AddItemCounts:
+    Position: {x: 9, y: 33}
+  - Name: T宇宙探索
+    ID: 4102
+    SID:
+    Desc: 宇宙探索描述2
+    Conclusion: 宇宙探索结果2
+    Published: 1
+    Level: 2
+    MaxLevel: 2
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/4102
+    IsLabTech: 1
+    PreTechs: 05100000
+    PreTechsImplicit:
+    Items: 71170000
+    ItemPoints: 14000000
+    HashNeeded: 36000
+    UnlockRecipes:
+    UnlockFunctions: 17000000
+    UnlockValues:
+    - 2
+    AddItems:
+    AddItemCounts:
+    Position: {x: 13, y: 33}
+  - Name: T宇宙探索
+    ID: 4103
+    SID:
+    Desc: 宇宙探索描述3
+    Conclusion: 宇宙探索结果3
+    Published: 1
+    Level: 3
+    MaxLevel: 3
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/4103
+    IsLabTech: 1
+    PreTechs: 06100000
+    PreTechsImplicit: 560b0000
+    Items: 711700007217000074170000
+    ItemPoints: 0c0000000c0000000c000000
+    HashNeeded: 300000
+    UnlockRecipes:
+    UnlockFunctions: 17000000
+    UnlockValues:
+    - 3
+    AddItems:
+    AddItemCounts:
+    Position: {x: 17, y: 33}
+  - Name: T宇宙探索
+    ID: 4104
+    SID:
+    Desc: 宇宙探索描述4
+    Conclusion: 宇宙探索结果4
+    Published: 1
+    Level: 4
+    MaxLevel: 4
+    LevelCoef1: 0
+    LevelCoef2: 0
+    IconPath: Icons/Tech/4104
+    IsLabTech: 1
+    PreTechs: 07100000
+    PreTechsImplicit:
+    Items: 71170000721700007417000075170000
+    ItemPoints: 06000000060000000600000006000000
+    HashNeeded: 1200000
+    UnlockRecipes:
+    UnlockFunctions: 17000000
+    UnlockValues:
+    - 4
+    AddItems:
+    AddItemCounts:
+    Position: {x: 21, y: 33}

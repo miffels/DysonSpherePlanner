@@ -15,8 +15,6 @@ npm run dev
 npm run build
 ```
 
-Note that you'll need to grab and transform game data for this app to run. I am currently not uploading it on purpose since I am not 100% clear what the devs would have to say about that.
-
 ## Contributing
 
 Contributions are welcome, but give me a few days to clean up this mess that I rushed out.

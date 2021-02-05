@@ -1,0 +1,1611 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660e4dfdcd2d8c64ebe8b8ffa7134d76, type: 3}
+  m_Name: RecipeProtoSet
+  m_EditorClassIdentifier:
+  TableName: Recipe
+  dataArray:
+  - Name: 铁块
+    ID: 1
+    SID: 1101
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: 'e9030000'
+    ItemCounts: '01000000'
+    Results: '4d040000'
+    ResultCounts: '01000000'
+    GridIndex: 1101
+    IconPath:
+    Description:
+  - Name: 磁铁
+    ID: 2
+    SID: 1201
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 90
+    Items: 'e9030000'
+    ItemCounts: '01000000'
+    Results: '4e040000'
+    ResultCounts: '01000000'
+    GridIndex: 1201
+    IconPath:
+    Description:
+  - Name: 铜块
+    ID: 3
+    SID: 1102
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: 'ea030000'
+    ItemCounts: '01000000'
+    Results: '50040000'
+    ResultCounts: '01000000'
+    GridIndex: 1102
+    IconPath:
+    Description:
+  - Name: 石材
+    ID: 4
+    SID: 1105
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: 'ed030000'
+    ItemCounts: '01000000'
+    Results: '54040000'
+    ResultCounts: '01000000'
+    GridIndex: 1105
+    IconPath:
+    Description:
+  - Name: 齿轮
+    ID: 5
+    SID: 1401
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: '4d040000'
+    ItemCounts: '01000000'
+    Results: 'b1040000'
+    ResultCounts: '01000000'
+    GridIndex: 1401
+    IconPath:
+    Description:
+  - Name: 磁线圈
+    ID: 6
+    SID: 1202
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: '4e04000050040000'
+    ItemCounts: '0200000001000000'
+    Results: 'b2040000'
+    ResultCounts: '02000000'
+    GridIndex: 1202
+    IconPath:
+    Description:
+  - Name: 风力涡轮机
+    ID: 7
+    SID: 2104
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '4d040000b1040000b2040000'
+    ItemCounts: '060000000100000003000000'
+    Results: '9b080000'
+    ResultCounts: '01000000'
+    GridIndex: 2104
+    IconPath:
+    Description:
+  - Name: 电力感应塔
+    ID: 8
+    SID: 2101
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: '4d040000b2040000'
+    ItemCounts: '0200000001000000'
+    Results: '99080000'
+    ResultCounts: '01000000'
+    GridIndex: 2101
+    IconPath:
+    Description:
+  - Name: 电磁矩阵
+    ID: 9
+    SID: 1701
+    Type: 15
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: 'b204000015050000'
+    ItemCounts: '0100000001000000'
+    Results: '71170000'
+    ResultCounts: '01000000'
+    GridIndex: 1701
+    IconPath:
+    Description:
+  - Name: 矩阵研究站
+    ID: 10
+    SID: 2408
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '4d0400005604000015050000b2040000'
+    ItemCounts: '08000000040000000400000004000000'
+    Results: '550b0000'
+    ResultCounts: '01000000'
+    GridIndex: 2408
+    IconPath:
+    Description:
+  - Name: 棱镜
+    ID: 11
+    SID: 1305
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '56040000'
+    ItemCounts: '03000000'
+    Results: '57040000'
+    ResultCounts: '02000000'
+    GridIndex: 1305
+    IconPath:
+    Description:
+  - Name: 电浆激发器
+    ID: 12
+    SID: 1402
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: 'b204000057040000'
+    ItemCounts: '0400000002000000'
+    Results: '79050000'
+    ResultCounts: '01000000'
+    GridIndex: 1501
+    IconPath:
+    Description:
+  - Name: 无线输电塔
+    ID: 13
+    SID: 2102
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '9908000079050000'
+    ItemCounts: '0100000003000000'
+    Results: '9a080000'
+    ResultCounts: '01000000'
+    GridIndex: 2102
+    IconPath:
+    Description:
+  - Name: 原油萃取站
+    ID: 14
+    SID: 2306
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 480
+    Items: '4f040000540400001505000079050000'
+    ItemCounts: '0c0000000c0000000600000004000000'
+    Results: '03090000'
+    ResultCounts: '01000000'
+    GridIndex: 2306
+    IconPath:
+    Description:
+  - Name: 原油精炼厂
+    ID: 15
+    SID: 2307
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '4f040000540400001505000079050000'
+    ItemCounts: '0a0000000a0000000600000006000000'
+    Results: '04090000'
+    ResultCounts: '01000000'
+    GridIndex: 2307
+    IconPath:
+    Description:
+  - Name: 等离子精炼
+    ID: 16
+    SID: 1107
+    Type: 3
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 240
+    Items: 'ef030000'
+    ItemCounts: '02000000'
+    Results: '600400005a040000'
+    ResultCounts: '0100000002000000'
+    GridIndex: 1107
+    IconPath: Icons/ItemRecipe/plasma-refining
+    Description: R等离子精炼
+  - Name: 高能石墨
+    ID: 17
+    SID: 1106
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: 'ee030000'
+    ItemCounts: '02000000'
+    Results: '55040000'
+    ResultCounts: '01000000'
+    GridIndex: 1106
+    IconPath:
+    Description:
+  - Name: 能量矩阵
+    ID: 18
+    SID: 1702
+    Type: 15
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '5504000060040000'
+    ItemCounts: '0200000002000000'
+    Results: '72170000'
+    ResultCounts: '01000000'
+    GridIndex: 1702
+    IconPath:
+    Description:
+  - Name: 氢燃料棒
+    ID: 19
+    SID: 1210
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '5204000060040000'
+    ItemCounts: '0100000005000000'
+    Results: '09070000'
+    ResultCounts: '01000000'
+    GridIndex: 1210
+    IconPath:
+    Description:
+  - Name: 推进器
+    ID: 20
+    SID: 1310
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '4f04000050040000'
+    ItemCounts: '0200000003000000'
+    Results: '7d050000'
+    ResultCounts: '01000000'
+    GridIndex: 1310
+    IconPath:
+    Description:
+  - Name: 加力推进器
+    ID: 21
+    SID: 1311
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '53040000b4040000'
+    ItemCounts: '0500000005000000'
+    Results: '7e050000'
+    ResultCounts: '01000000'
+    GridIndex: 1311
+    IconPath:
+    Description:
+  - Name: 化工厂
+    ID: 22
+    SID: 2407
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 300
+    Items: '4f040000540400005604000015050000'
+    ItemCounts: '08000000080000000800000002000000'
+    Results: '05090000'
+    ResultCounts: '01000000'
+    GridIndex: 2407
+    IconPath:
+    Description:
+  - Name: 塑料
+    ID: 23
+    SID: 1108
+    Type: 2
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 180
+    Items: '5a04000055040000'
+    ItemCounts: '0200000001000000'
+    Results: '5b040000'
+    ResultCounts: '01000000'
+    GridIndex: 1108
+    IconPath:
+    Description:
+  - Name: 硫酸
+    ID: 24
+    SID: 1406
+    Type: 2
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 360
+    Items: '5a040000ed030000e8030000'
+    ItemCounts: '060000000800000004000000'
+    Results: '5c040000'
+    ResultCounts: '04000000'
+    GridIndex: 1406
+    IconPath:
+    Description:
+  - Name: 有机晶体
+    ID: 25
+    SID: 1208
+    Type: 2
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 360
+    Items: '5b0400005a040000e8030000'
+    ItemCounts: '020000000100000001000000'
+    Results: '5d040000'
+    ResultCounts: '01000000'
+    GridIndex: 1208
+    IconPath:
+    Description:
+  - Name: 钛晶石
+    ID: 26
+    SID: 1309
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '5d04000052040000'
+    ItemCounts: '0100000003000000'
+    Results: '5e040000'
+    ResultCounts: '01000000'
+    GridIndex: 1309
+    IconPath:
+    Description:
+  - Name: 结构矩阵
+    ID: 27
+    SID: 1703
+    Type: 15
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 480
+    Items: '580400005e040000'
+    ItemCounts: '0100000001000000'
+    Results: '73170000'
+    ResultCounts: '01000000'
+    GridIndex: 1703
+    IconPath:
+    Description:
+  - Name: 卡西米尔晶体
+    ID: 28
+    SID: 1505
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '5e0400006304000060040000'
+    ItemCounts: '01000000020000000c000000'
+    Results: '66040000'
+    ResultCounts: '01000000'
+    GridIndex: 1505
+    IconPath:
+    Description:
+  - Name: 卡西米尔晶体（高效）
+    ID: 29
+    SID: 1605
+    Type: 4
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 240
+    Items: 'f60300006304000060040000'
+    ItemCounts: '06000000020000000c000000'
+    Results: '66040000'
+    ResultCounts: '01000000'
+    GridIndex: 1605
+    IconPath: Icons/ItemRecipe/casimir-crystal-lv2
+    Description: R卡西米尔晶体（高效）
+  - Name: 钛化玻璃
+    ID: 30
+    SID: 1304
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 300
+    Items: '5604000052040000e8030000'
+    ItemCounts: '020000000200000002000000'
+    Results: '5f040000'
+    ResultCounts: '02000000'
+    GridIndex: 1304
+    IconPath:
+    Description:
+  - Name: 石墨烯
+    ID: 31
+    SID: 1109
+    Type: 2
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 180
+    Items: '550400005c040000'
+    ItemCounts: '0300000001000000'
+    Results: '63040000'
+    ResultCounts: '02000000'
+    GridIndex: 1109
+    IconPath:
+    Description:
+  - Name: 石墨烯（高效）
+    ID: 32
+    SID: 1209
+    Type: 2
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 120
+    Items: 'f3030000'
+    ItemCounts: '02000000'
+    Results: '6304000060040000'
+    ResultCounts: '0200000001000000'
+    GridIndex: 1209
+    IconPath: Icons/ItemRecipe/graphene-lv2
+    Description: R石墨烯（高效）
+  - Name: 碳纳米管
+    ID: 33
+    SID: 1409
+    Type: 2
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 240
+    Items: '6304000052040000'
+    ItemCounts: '0300000001000000'
+    Results: '64040000'
+    ResultCounts: '02000000'
+    GridIndex: 1409
+    IconPath:
+    Description:
+  - Name: 硅石
+    ID: 34
+    SID: 1403
+    Type: 1
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 600
+    Items: 'ed030000'
+    ItemCounts: '0a000000'
+    Results: 'eb030000'
+    ResultCounts: '01000000'
+    GridIndex: 1403
+    IconPath:
+    Description:
+  - Name: 碳纳米管（高效）
+    ID: 35
+    SID: 1509
+    Type: 2
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 240
+    Items: 'f7030000'
+    ItemCounts: '02000000'
+    Results: '64040000'
+    ResultCounts: '02000000'
+    GridIndex: 1509
+    IconPath: Icons/ItemRecipe/nanotube-lv2
+    Description: R碳纳米管（高效）
+  - Name: 粒子宽带
+    ID: 36
+    SID: 1503
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 480
+    Items: '64040000590400005b040000'
+    ItemCounts: '020000000200000001000000'
+    Results: '7a050000'
+    ResultCounts: '01000000'
+    GridIndex: 1503
+    IconPath:
+    Description:
+  - Name: 晶格硅
+    ID: 37
+    SID: 1203
+    Type: 1
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 120
+    Items: '51040000'
+    ItemCounts: '01000000'
+    Results: '59040000'
+    ResultCounts: '01000000'
+    GridIndex: 1203
+    IconPath:
+    Description:
+  - Name: 位面过滤器
+    ID: 38
+    SID: 1408
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 720
+    Items: '660400005f040000'
+    ItemCounts: '0100000002000000'
+    Results: '18050000'
+    ResultCounts: '01000000'
+    GridIndex: 1408
+    IconPath:
+    Description:
+  - Name: 微型粒子对撞机
+    ID: 39
+    SID: 2210
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 900
+    Items: '5304000065040000b50400006304000017050000'
+    ItemCounts: '1400000014000000320000000a00000008000000'
+    Results: '06090000'
+    ResultCounts: '01000000'
+    GridIndex: 2210
+    IconPath:
+    Description:
+  - Name: 重氢
+    ID: 40
+    SID: 1407
+    Type: 5
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 300
+    Items: '60040000'
+    ItemCounts: '0a000000'
+    Results: '61040000'
+    ResultCounts: '05000000'
+    GridIndex: 1407
+    IconPath:
+    Description:
+  - Name: 氘核燃料棒
+    ID: 41
+    SID: 1211
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '5304000061040000b5040000'
+    ItemCounts: '010000000a00000001000000'
+    Results: '0a070000'
+    ResultCounts: '01000000'
+    GridIndex: 1211
+    IconPath:
+    Description:
+  - Name: 湮灭约束球
+    ID: 42
+    SID: 1508
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 1200
+    Items: 'b604000017050000'
+    ItemCounts: '0100000001000000'
+    Results: '7b050000'
+    ResultCounts: '01000000'
+    GridIndex: 1508
+    IconPath:
+    Description:
+  - Name: 人造恒星
+    ID: 43
+    SID: 2111
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 1800
+    Items: '53040000650400007b05000019050000'
+    ItemCounts: '14000000140000000a0000000a000000'
+    Results: 'a2080000'
+    ResultCounts: '01000000'
+    GridIndex: 2111
+    IconPath:
+    Description:
+  - Name: 反物质燃料棒
+    ID: 44
+    SID: 1212
+    Type: 4
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 720
+    Items: '62040000600400007b05000053040000'
+    ItemCounts: '0a0000000a0000000100000001000000'
+    Results: '0b070000'
+    ResultCounts: '01000000'
+    GridIndex: 1212
+    IconPath:
+    Description:
+  - Name: 制造台 Mk.I
+    ID: 45
+    SID: 2401
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '4d040000b104000015050000'
+    ItemCounts: '040000000800000004000000'
+    Results: 'ff080000'
+    ResultCounts: '01000000'
+    GridIndex: 2401
+    IconPath:
+    Description:
+  - Name: 制造台 Mk.II
+    ID: 46
+    SID: 2402
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: 'ff0800006304000017050000'
+    ItemCounts: '010000000800000004000000'
+    Results: '00090000'
+    ResultCounts: '01000000'
+    GridIndex: 2402
+    IconPath:
+    Description:
+  - Name: 制造台 Mk.III
+    ID: 47
+    SID: 2403
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '000900007a05000019050000'
+    ItemCounts: '010000000800000002000000'
+    Results: '01090000'
+    ResultCounts: '01000000'
+    GridIndex: 2403
+    IconPath:
+    Description:
+  - Name: 采矿机
+    ID: 48
+    SID: 2304
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '4d04000015050000b2040000b1040000'
+    ItemCounts: '04000000020000000200000002000000'
+    Results: 'fd080000'
+    ResultCounts: '01000000'
+    GridIndex: 2304
+    IconPath:
+    Description:
+  - Name: 抽水站
+    ID: 49
+    SID: 2305
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '4d04000054040000b304000015050000'
+    ItemCounts: '08000000040000000400000002000000'
+    Results: '02090000'
+    ResultCounts: '01000000'
+    GridIndex: 2305
+    IconPath:
+    Description:
+  - Name: 电路板
+    ID: 50
+    SID: 1404
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: '4d04000050040000'
+    ItemCounts: '0200000001000000'
+    Results: '15050000'
+    ResultCounts: '02000000'
+    GridIndex: 1404
+    IconPath:
+    Description:
+  - Name: 处理器
+    ID: 51
+    SID: 1504
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '1505000016050000'
+    ItemCounts: '0200000002000000'
+    Results: '17050000'
+    ResultCounts: '01000000'
+    GridIndex: 1504
+    IconPath:
+    Description:
+  - Name: 量子芯片
+    ID: 52
+    SID: 1604
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '1705000018050000'
+    ItemCounts: '0200000002000000'
+    Results: '19050000'
+    ResultCounts: '01000000'
+    GridIndex: 1604
+    IconPath:
+    Description:
+  - Name: 微晶元件
+    ID: 53
+    SID: 1603
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '5104000050040000'
+    ItemCounts: '0200000001000000'
+    Results: '16050000'
+    ResultCounts: '01000000'
+    GridIndex: 1603
+    IconPath:
+    Description:
+  - Name: 有机晶体（原始）
+    ID: 54
+    SID: 1308
+    Type: 4
+    Handcraft: 1
+    Explicit: 1
+    TimeSpend: 360
+    Items: '0604000007040000e8030000'
+    ItemCounts: '140000001e0000000a000000'
+    Results: '5d040000'
+    ResultCounts: '01000000'
+    GridIndex: 1308
+    IconPath: Icons/ItemRecipe/crystal-rubber-lv0
+    Description: R有机晶体（原始）
+  - Name: 信息矩阵
+    ID: 55
+    SID: 1704
+    Type: 15
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 600
+    Items: '170500007a050000'
+    ItemCounts: '0200000001000000'
+    Results: '74170000'
+    ResultCounts: '01000000'
+    GridIndex: 1704
+    IconPath:
+    Description:
+  - Name: 电弧熔炉
+    ID: 56
+    SID: 2404
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '4d0400005404000015050000b2040000'
+    ItemCounts: '04000000020000000400000002000000'
+    Results: 'fe080000'
+    ResultCounts: '01000000'
+    GridIndex: 2404
+    IconPath:
+    Description:
+  - Name: 玻璃
+    ID: 57
+    SID: 1205
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: 'ed030000'
+    ItemCounts: '02000000'
+    Results: '56040000'
+    ResultCounts: '01000000'
+    GridIndex: 1205
+    IconPath:
+    Description:
+  - Name: X射线裂解
+    ID: 58
+    SID: 1207
+    Type: 3
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 240
+    Items: '5a04000060040000'
+    ItemCounts: '0100000002000000'
+    Results: '6004000055040000'
+    ResultCounts: '0300000001000000'
+    GridIndex: 1207
+    IconPath: Icons/ItemRecipe/X-ray
+    Description: RX射线裂解
+  - Name: 高纯硅块
+    ID: 59
+    SID: 1103
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: 'eb030000'
+    ItemCounts: '02000000'
+    Results: '51040000'
+    ResultCounts: '01000000'
+    GridIndex: 1103
+    IconPath:
+    Description:
+  - Name: 金刚石
+    ID: 60
+    SID: 1206
+    Type: 1
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 120
+    Items: '55040000'
+    ItemCounts: '01000000'
+    Results: '58040000'
+    ResultCounts: '01000000'
+    GridIndex: 1206
+    IconPath:
+    Description:
+  - Name: 金刚石（高效）
+    ID: 61
+    SID: 1306
+    Type: 1
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 120
+    Items: 'f4030000'
+    ItemCounts: '01000000'
+    Results: '58040000'
+    ResultCounts: '01000000'
+    GridIndex: 1306
+    IconPath: Icons/ItemRecipe/diamond-lv2
+    Description: R金刚石（高效）
+  - Name: 晶格硅（高效）
+    ID: 62
+    SID: 1303
+    Type: 4
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 240
+    Items: 'f5030000'
+    ItemCounts: '01000000'
+    Results: '59040000'
+    ResultCounts: '01000000'
+    GridIndex: 1303
+    IconPath: Icons/ItemRecipe/silicium-high-purity-lv2
+    Description: R晶格硅（高效）
+  - Name: 钢材
+    ID: 63
+    SID: 1301
+    Type: 1
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 180
+    Items: '4d040000'
+    ItemCounts: '03000000'
+    Results: '4f040000'
+    ResultCounts: '01000000'
+    GridIndex: 1301
+    IconPath:
+    Description:
+  - Name: 火力发电厂
+    ID: 64
+    SID: 2105
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 300
+    Items: '4d04000054040000b1040000b2040000'
+    ItemCounts: '0a000000040000000400000004000000'
+    Results: '9c080000'
+    ResultCounts: '01000000'
+    GridIndex: 2105
+    IconPath:
+    Description:
+  - Name: 钛块
+    ID: 65
+    SID: 1104
+    Type: 1
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: 'ec030000'
+    ItemCounts: '02000000'
+    Results: '52040000'
+    ResultCounts: '01000000'
+    GridIndex: 1104
+    IconPath:
+    Description:
+  - Name: 钛合金
+    ID: 66
+    SID: 1204
+    Type: 1
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 720
+    Items: '520400004f0400005c040000'
+    ItemCounts: '040000000400000008000000'
+    Results: '53040000'
+    ResultCounts: '04000000'
+    GridIndex: 1204
+    IconPath:
+    Description:
+  - Name: 太阳能板
+    ID: 67
+    SID: 2106
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 300
+    Items: '500400005104000015050000'
+    ItemCounts: '060000000600000004000000'
+    Results: '9d080000'
+    ResultCounts: '01000000'
+    GridIndex: 2106
+    IconPath:
+    Description:
+  - Name: 光子合并器
+    ID: 68
+    SID: 1502
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '5704000015050000'
+    ItemCounts: '0200000001000000'
+    Results: '7c050000'
+    ResultCounts: '01000000'
+    GridIndex: 1601
+    IconPath:
+    Description:
+  - Name: 光子合并器（高效）
+    ID: 69
+    SID: 1602
+    Type: 4
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 180
+    Items: 'f603000015050000'
+    ItemCounts: '0100000001000000'
+    Results: '7c050000'
+    ResultCounts: '01000000'
+    GridIndex: 1602
+    IconPath: Icons/ItemRecipe/photo-shifter-lv2
+    Description: R光子合并器（高效）
+  - Name: 太阳帆
+    ID: 70
+    SID: 1510
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '630400007c050000'
+    ItemCounts: '0100000001000000'
+    Results: 'dd050000'
+    ResultCounts: '02000000'
+    GridIndex: 1510
+    IconPath:
+    Description:
+  - Name: 电磁轨道弹射器
+    ID: 71
+    SID: 2208
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '4f040000b104000017050000b5040000'
+    ItemCounts: '1400000014000000050000000a000000'
+    Results: '07090000'
+    ResultCounts: '01000000'
+    GridIndex: 2208
+    IconPath:
+    Description:
+  - Name: 射线接收站
+    ID: 72
+    SID: 2108
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 480
+    Items: '4f040000510400007c05000017050000b5040000'
+    ItemCounts: '14000000140000000a0000000500000014000000'
+    Results: 'a0080000'
+    ResultCounts: '01000000'
+    GridIndex: 2108
+    IconPath:
+    Description:
+  - Name: 卫星配电站
+    ID: 73
+    SID: 2103
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 300
+    Items: '9a080000b504000065040000'
+    ItemCounts: '010000000a00000002000000'
+    Results: 'a4080000'
+    ResultCounts: '01000000'
+    GridIndex: 2103
+    IconPath:
+    Description:
+  - Name: 光子物质化
+    ID: 74
+    SID: 1608
+    Type: 5
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 120
+    Items: 'b8040000'
+    ItemCounts: '02000000'
+    Results: '6204000060040000'
+    ResultCounts: '0200000002000000'
+    GridIndex: 1608
+    IconPath: Icons/ItemRecipe/photon-formula
+    Description: R光子物质化
+  - Name: 宇宙矩阵
+    ID: 75
+    SID: 1706
+    Type: 15
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 900
+    Items: '711700007217000073170000741700007517000062040000'
+    ItemCounts: '010000000100000001000000010000000100000001000000'
+    Results: '76170000'
+    ResultCounts: '01000000'
+    GridIndex: 1706
+    IconPath:
+    Description:
+  - Name: 蓄电器
+    ID: 76
+    SID: 2107
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 300
+    Items: '4d040000b504000059040000'
+    ItemCounts: '060000000600000004000000'
+    Results: '9e080000'
+    ResultCounts: '01000000'
+    GridIndex: 2107
+    IconPath:
+    Description:
+  - Name: 能量枢纽
+    ID: 77
+    SID: 2110
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 900
+    Items: '530400004f04000017050000b6040000'
+    ItemCounts: '28000000280000002800000008000000'
+    Results: 'a1080000'
+    ResultCounts: '01000000'
+    GridIndex: 2110
+    IconPath:
+    Description:
+  - Name: 空间翘曲器
+    ID: 78
+    SID: 1507
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 600
+    Items: 'b9040000'
+    ItemCounts: '01000000'
+    Results: 'ba040000'
+    ResultCounts: '01000000'
+    GridIndex: 1507
+    IconPath:
+    Description:
+  - Name: 空间翘曲器（高级）
+    ID: 79
+    SID: 1607
+    Type: 4
+    Handcraft: 1
+    Explicit: 1
+    TimeSpend: 600
+    Items: '75170000'
+    ItemCounts: '01000000'
+    Results: 'ba040000'
+    ResultCounts: '08000000'
+    GridIndex: 1607
+    IconPath: Icons/ItemRecipe/space-warper-lv2
+    Description: R空间翘曲器（高级）
+  - Name: 框架材料
+    ID: 80
+    SID: 1511
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '640400005304000051040000'
+    ItemCounts: '040000000100000001000000'
+    Results: '65040000'
+    ResultCounts: '01000000'
+    GridIndex: 1511
+    IconPath:
+    Description:
+  - Name: 戴森球组件
+    ID: 81
+    SID: 1512
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 480
+    Items: '65040000dd05000017050000'
+    ItemCounts: '030000000300000003000000'
+    Results: 'de050000'
+    ResultCounts: '01000000'
+    GridIndex: 1512
+    IconPath:
+    Description:
+  - Name: 垂直发射井
+    ID: 82
+    SID: 2308
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 1800
+    Items: '5304000065040000b904000019050000'
+    ItemCounts: '500000001e000000140000000a000000'
+    Results: '08090000'
+    ResultCounts: '01000000'
+    GridIndex: 2308
+    IconPath:
+    Description:
+  - Name: 小型运载火箭
+    ID: 83
+    SID: 1412
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: 'de0500000a07000019050000'
+    ItemCounts: '020000000200000002000000'
+    Results: 'df050000'
+    ResultCounts: '01000000'
+    GridIndex: 1412
+    IconPath:
+    Description:
+  - Name: 低速传送带
+    ID: 84
+    SID: 2201
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: '4d040000b1040000'
+    ItemCounts: '0200000001000000'
+    Results: 'd1070000'
+    ResultCounts: '03000000'
+    GridIndex: 2201
+    IconPath:
+    Description:
+  - Name: 低速分拣器
+    ID: 85
+    SID: 2301
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: '4d04000015050000'
+    ItemCounts: '0100000001000000'
+    Results: 'db070000'
+    ResultCounts: '01000000'
+    GridIndex: 2301
+    IconPath:
+    Description:
+  - Name: 小型储物仓
+    ID: 86
+    SID: 2205
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '4d04000054040000'
+    ItemCounts: '0400000004000000'
+    Results: '35080000'
+    ResultCounts: '01000000'
+    GridIndex: 2205
+    IconPath:
+    Description:
+  - Name: 四向分流器
+    ID: 87
+    SID: 2204
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '4d040000b104000015050000'
+    ItemCounts: '030000000200000001000000'
+    Results: 'e4070000'
+    ResultCounts: '01000000'
+    GridIndex: 2204
+    IconPath:
+    Description:
+  - Name: 高速分拣器
+    ID: 88
+    SID: 2302
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: 'db070000b3040000'
+    ItemCounts: '0200000001000000'
+    Results: 'dc070000'
+    ResultCounts: '02000000'
+    GridIndex: 2302
+    IconPath:
+    Description:
+  - Name: 高速传送带
+    ID: 89
+    SID: 2202
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: 'd1070000b4040000'
+    ItemCounts: '0300000001000000'
+    Results: 'd2070000'
+    ResultCounts: '03000000'
+    GridIndex: 2202
+    IconPath:
+    Description:
+  - Name: 极速分拣器
+    ID: 90
+    SID: 2303
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: 'dc070000b4040000'
+    ItemCounts: '0200000001000000'
+    Results: 'dd070000'
+    ResultCounts: '02000000'
+    GridIndex: 2303
+    IconPath:
+    Description:
+  - Name: 大型储物仓
+    ID: 91
+    SID: 2206
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '4f04000054040000'
+    ItemCounts: '0800000008000000'
+    Results: '36080000'
+    ResultCounts: '01000000'
+    GridIndex: 2206
+    IconPath:
+    Description:
+  - Name: 极速传送带
+    ID: 92
+    SID: 2203
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: 'd2070000b504000063040000'
+    ItemCounts: '030000000100000001000000'
+    Results: 'd3070000'
+    ResultCounts: '03000000'
+    GridIndex: 2203
+    IconPath:
+    Description:
+  - Name: 物流运输站
+    ID: 93
+    SID: 2209
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 1200
+    Items: '4f0400005204000017050000b6040000'
+    ItemCounts: '28000000280000002800000014000000'
+    Results: '37080000'
+    ResultCounts: '01000000'
+    GridIndex: 2209
+    IconPath:
+    Description:
+  - Name: 物流运输机
+    ID: 94
+    SID: 1410
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '4d040000170500007d050000'
+    ItemCounts: '050000000200000002000000'
+    Results: '89130000'
+    ResultCounts: '01000000'
+    GridIndex: 1410
+    IconPath:
+    Description:
+  - Name: 星际物流运输站
+    ID: 95
+    SID: 2309
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 1800
+    Items: '3708000053040000b6040000'
+    ItemCounts: '010000002800000014000000'
+    Results: '38080000'
+    ResultCounts: '01000000'
+    GridIndex: 2309
+    IconPath:
+    Description:
+  - Name: 星际物流运输船
+    ID: 96
+    SID: 1411
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '53040000170500007e050000'
+    ItemCounts: '0a0000000a00000002000000'
+    Results: '8a130000'
+    ResultCounts: '01000000'
+    GridIndex: 1411
+    IconPath:
+    Description:
+  - Name: 电动机
+    ID: 97
+    SID: 1501
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '4d040000b1040000b2040000'
+    ItemCounts: '020000000100000001000000'
+    Results: 'b3040000'
+    ResultCounts: '01000000'
+    GridIndex: 1302
+    IconPath:
+    Description:
+  - Name: 电磁涡轮
+    ID: 98
+    SID: 1601
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: 'b3040000b2040000'
+    ItemCounts: '0200000002000000'
+    Results: 'b4040000'
+    ResultCounts: '01000000'
+    GridIndex: 1402
+    IconPath:
+    Description:
+  - Name: 粒子容器
+    ID: 99
+    SID: 1506
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: 'b40400005004000063040000'
+    ItemCounts: '020000000200000002000000'
+    Results: 'b6040000'
+    ResultCounts: '01000000'
+    GridIndex: 1506
+    IconPath:
+    Description:
+  - Name: 粒子容器（高效）
+    ID: 100
+    SID: 1606
+    Type: 4
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 240
+    Items: 'f803000050040000'
+    ItemCounts: '0a00000002000000'
+    Results: 'b6040000'
+    ResultCounts: '01000000'
+    GridIndex: 1606
+    IconPath: Icons/ItemRecipe/partical-capacitor-lv2
+    Description: R粒子容器（高效）
+  - Name: 引力透镜
+    ID: 101
+    SID: 1405
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 360
+    Items: '5804000067040000'
+    ItemCounts: '0400000001000000'
+    Results: 'b9040000'
+    ResultCounts: '01000000'
+    GridIndex: 1405
+    IconPath:
+    Description:
+  - Name: 引力矩阵
+    ID: 102
+    SID: 1705
+    Type: 15
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 1440
+    Items: 'b904000019050000'
+    ItemCounts: '0100000001000000'
+    Results: '75170000'
+    ResultCounts: '02000000'
+    GridIndex: 1705
+    IconPath:
+    Description:
+  - Name: 超级磁场环
+    ID: 103
+    SID: 1302
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: 'b40400004e04000055040000'
+    ItemCounts: '020000000300000001000000'
+    Results: 'b5040000'
+    ResultCounts: '01000000'
+    GridIndex: 1502
+    IconPath:
+    Description:
+  - Name: 奇异物质
+    ID: 104
+    SID: 1312
+    Type: 5
+    Handcraft: 0
+    Explicit: 0
+    TimeSpend: 480
+    Items: 'b60400004d04000061040000'
+    ItemCounts: '02000000020000000a000000'
+    Results: '67040000'
+    ResultCounts: '01000000'
+    GridIndex: 1312
+    IconPath:
+    Description:
+  - Name: 加速剂 Mk.I
+    ID: 106
+    SID: 1110
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: 'ee030000'
+    ItemCounts: '02000000'
+    Results: '75040000'
+    ResultCounts: '01000000'
+    GridIndex: 1110
+    IconPath:
+    Description:
+  - Name: 加速剂 Mk.II
+    ID: 107
+    SID: 1111
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 240
+    Items: '5d04000075040000'
+    ItemCounts: '0200000001000000'
+    Results: '76040000'
+    ResultCounts: '01000000'
+    GridIndex: 1111
+    IconPath:
+    Description:
+  - Name: 加速剂 Mk.III
+    ID: 108
+    SID: 1112
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 480
+    Items: '6604000076040000'
+    ItemCounts: '0300000001000000'
+    Results: '77040000'
+    ResultCounts: '01000000'
+    GridIndex: 1112
+    IconPath:
+    Description:
+  - Name: 喷涂机
+    ID: 109
+    SID: 2405
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '79050000150500004f040000'
+    ItemCounts: '010000000400000002000000'
+    Results: '09090000'
+    ResultCounts: '01000000'
+    GridIndex: 2405
+    IconPath:
+    Description:
+  - Name: 分馏塔
+    ID: 110
+    SID: 2406
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 180
+    Items: '4f040000540400005604000017050000'
+    ItemCounts: '08000000040000000400000001000000'
+    Results: '0a090000'
+    ResultCounts: '01000000'
+    GridIndex: 2406
+    IconPath:
+    Description:
+  - Name: 轨道采集器
+    ID: 111
+    SID: 2409
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 1800
+    Items: '38080000b50400007e0500009f080000'
+    ItemCounts: '01000000320000001400000014000000'
+    Results: '39080000'
+    ResultCounts: '01000000'
+    GridIndex: 2409
+    IconPath:
+    Description:
+  - Name: 地基
+    ID: 112
+    SID: 1712
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 60
+    Items: '540400004f040000'
+    ItemCounts: '0300000001000000'
+    Results: '6b040000'
+    ResultCounts: '01000000'
+    GridIndex: 1712
+    IconPath:
+    Description:
+  - Name: 微型聚变发电站
+    ID: 113
+    SID: 2109
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 600
+    Items: '53040000b50400006404000017050000'
+    ItemCounts: '0c0000000a0000000800000004000000'
+    Results: 'a3080000'
+    ResultCounts: '01000000'
+    GridIndex: 2109
+    IconPath:
+    Description:
+  - Name: 储液罐
+    ID: 114
+    SID: 2207
+    Type: 4
+    Handcraft: 1
+    Explicit: 0
+    TimeSpend: 120
+    Items: '4d0400005404000056040000'
+    ItemCounts: '080000000400000004000000'
+    Results: '3a080000'
+    ResultCounts: '01000000'
+    GridIndex: 2207
+    IconPath:
+    Description:
+  - Name: 重氢分馏
+    ID: 115
+    SID: 1307
+    Type: 8
+    Handcraft: 0
+    Explicit: 1
+    TimeSpend: 1
+    Items: '60040000'
+    ItemCounts: '64000000'
+    Results: '61040000'
+    ResultCounts: '01000000'
+    GridIndex: 1307
+    IconPath: Icons/ItemRecipe/deuterium-formula
+    Description: R重氢分馏
