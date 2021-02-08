@@ -1,35 +1,29 @@
 <template>
   <div id="app">
-    <a href="https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/">
-      <img class="logo" src="data/ui/textures/dsp-logo-en.png">
-    </a>
-    <h1>Recipe Browser</h1>
-    <i>
-      Not affiliated with, or endorsed by, Youthcat Studio.<br />
-      Made with &#10084;&#65039; &amp; &#127864; in Germany.
-    </i>
-    <ul id="example-1">
+    <h2>Recipe Browser</h2>
+    <autocomplete id="recipe-search" :search="searchItems"></autocomplete>
+    <ul class="recipe-list">
       <li class="recipe"
-        v-for="recipe in recipes"
-        :key="recipe.ID"
+        v-for="(recipe, index) in recipes"
+        :key="index"
         @click="show = recipe.ID">
         <div class="result">
           <img
             :title="i18n[language][recipe.Name]"
-            :src="'data/' + iconForRecipe(recipe).toLowerCase() + '.png'">
+            :src="'data/' + recipe.IconPath.toLowerCase() + '.png'">
           <span class="recipe-time"
             v-show="show == recipe.ID && recipe.TimeSpend/60 >=1">
             {{ recipe.TimeSpend/60 }}s
           </span>
           <span class="ingredient-count"
             v-show="show == recipe.ID">
-            {{ resultsForRecipe(recipe)[0].count }}
+            {{ recipe.produces[0].count }}
           </span>
         </div>
-        <div v-show="show == recipe.ID"  class="detail">
+        <div v-show="show == recipe.ID" class="detail">
           <ul>
             <li
-              v-for="ingredient in ingredientsForRecipe(recipe)"
+              v-for="ingredient in recipe.requires"
               :key="recipe.ID+ingredient.item.ID">
               <div class="ingredient">
                 <img
@@ -47,116 +41,40 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import * as YAML from 'yaml';
 
-/* eslint-disable @typescript-eslint/no-var-requires */
-const itemProtoSet = require('../assets/data/prototypes/ItemProtoSet.asset').default;
-const stringProtoSet = require('../assets/data/prototypes/StringProtoSet.asset').default;
-const recipeProtoSet = require('../assets/data/prototypes/RecipeProtoSet.asset').default;
-/* eslint-enable @typescript-eslint/no-var-requires */
-
-type PackedHex = string;
-
-interface Recipe {
-  Items: PackedHex;
-  ItemCounts: PackedHex;
-  Results: PackedHex;
-  ResultCounts: PackedHex;
-  IconPath: string;
-}
-
-interface Item {
-  ID: number;
-  IconPath: string;
-}
-
-interface Ingredient {
-  item: Item;
-  count: number;
-}
-
-type Result = Ingredient
-
-interface LocalString {
-  Name: string;
-  ZHCN: string;
-  ENUS: string;
-  FRFR: string;
-}
-
-interface LocalStringMap {
-  ZHCN: {[key: string]: string};
-  ENUS: {[key: string]: string};
-  FRFR: {[key: string]: string};
-}
-
-type Language = 'ZHCN' | 'ENUS' | 'FRFR';
+import {
+  Language, i18n, recipes,
+} from '../data';
 
 @Component
 export default class RecipeBrowser extends Vue {
-  private items: Item[] = RecipeBrowser.getData<Item>(itemProtoSet);
+  private allRecipes = recipes;
 
-  private itemMap = this.items.reduce((acc, i) => {
-    acc[i.ID] = i;
-    return acc;
-  }, {} as {[key: number]: Item});
+  private recipes = this.allRecipes;
 
-  private recipes: Recipe[] = RecipeBrowser.getData<Recipe>(recipeProtoSet);
-
-  private i18n: LocalStringMap = RecipeBrowser.getData<LocalString>(stringProtoSet)
-    .reduce((acc, i) => {
-      acc.ZHCN[i.Name] = i.ZHCN;
-      acc.ENUS[i.Name] = i.ENUS;
-      acc.FRFR[i.Name] = i.FRFR;
-      return acc;
-    }, { ZHCN: { }, ENUS: { }, FRFR: { } } as LocalStringMap);
+  private i18n = i18n;
 
   private language: Language = 'ENUS';
 
   private show = 0;
 
-  private static getData<T>(raw: PackedHex): Array<T> {
-    return YAML.parse(raw).MonoBehaviour.dataArray;
-  }
+  searchItems(query: string): void[] {
+    if (query.length < 1) {
+      this.recipes = this.allRecipes;
+      return [];
+    }
+    const regex = new RegExp(query, 'i');
+    this.recipes = this.allRecipes.filter((recipe) => recipe.Name.match(regex)
+      || recipe.IconPath.match(regex)
+      || this.i18n.ZHCN[recipe.Name].match(regex)
+      || this.i18n.ENUS[recipe.Name].match(regex)
+      || this.i18n.FRFR[recipe.Name].match(regex));
 
-  private static unpackHex(hex: PackedHex): number[] {
-    return (hex.match(/.{1,8}/g) || [])
-      .map(
-        (g) => parseInt([6, 4, 2, 0].map((i) => g.substr(i, 2)).join(''), 16),
-      );
-  }
-
-  private ingredientsForRecipe(recipe: Recipe): Ingredient[] {
-    const ingredients = RecipeBrowser.unpackHex(recipe.Items).map((id) => this.itemMap[id]);
-    const counts = RecipeBrowser.unpackHex(recipe.ItemCounts);
-    return ingredients.reduce((acc, item, idx: number) => {
-      acc.push({
-        item,
-        count: counts[idx],
-      });
-      return acc;
-    }, [] as Ingredient[]);
-  }
-
-  private resultsForRecipe(recipe: Recipe): Result[] {
-    const results: Item[] = RecipeBrowser.unpackHex(recipe.Results).map((id) => this.itemMap[id]);
-    const counts: number[] = RecipeBrowser.unpackHex(recipe.ResultCounts);
-    return results.reduce((acc, item, idx: number) => {
-      acc.push({
-        item,
-        count: counts[idx],
-      });
-      return acc;
-    }, [] as Result[]);
-  }
-
-  private iconForRecipe(recipe: Recipe): string {
-    return recipe.IconPath || (this.resultsForRecipe(recipe)[0].item || {}).IconPath || '';
+    return [];
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
   font-weight: normal;
@@ -203,11 +121,4 @@ li {
   font-weight: bold;
 }
 
-a {
-  color: #42b983;
-}
-
-img.logo {
-  max-width: 80%;
-}
 </style>
