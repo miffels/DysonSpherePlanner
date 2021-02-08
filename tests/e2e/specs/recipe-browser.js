@@ -1,7 +1,5 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-const { expect } = require('chai');
-
 class RecipeSearchComponent {
   static visit() {
     cy.visit('/');
