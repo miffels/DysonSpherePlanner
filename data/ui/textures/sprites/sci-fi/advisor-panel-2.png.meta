@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 9eb7f7db27766954b9f9b6bf27ee0836
+timeCreated: 1612373169
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: advisor-panel-2
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 500
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 90, y: 0, z: 184, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: advisor-panel-2
+      rect:
+        serializedVersion: 2
+        x: 21.02675
+        y: 31.05132
+        width: 348.9603
+        height: 133.9219
+      alignment: 9
+      pivot: {x: 0.6561584, y: 0.5148423}
+      border: {x: 68.97325, y: 0, z: 53.98708, w: 0}
+      outline:
+      - - {x: -168.5069, y: -67.01228}
+        - {x: -174.5069, y: -61.01228}
+        - {x: -174.5069, y: 52.98772}
+        - {x: -160.5069, y: 66.98772}
+        - {x: 108.4931, y: 66.98772}
+        - {x: 151.4931, y: 64.98772}
+        - {x: 174.4931, y: -33.01228}
+        - {x: 174.4931, y: -67.01228}
+        - {x: -78.50691, y: -67.01228}
+        - {x: -157.5069, y: -60.01228}
+        - {x: -156.5069, y: -66.01228}
+        - {x: -160.5069, y: -67.01228}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47faa77f75e84007b0e136a2dbf9f51d
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

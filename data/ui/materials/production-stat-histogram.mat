@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: production-stat-histogram
+  m_Shader: {fileID: 4800000, guid: 83f14d94b52963f418323b479b41b9cf, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BigImage: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IsProduction: 0
+    - _MaxCount: 0
+    - _MaxCount1: 0
+    - _MaxCount2: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _Multiplier: 1.52
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _ToggleVerta: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AsideColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ConsumeColor: {r: 1, g: 0.6906122, b: 0, a: 1}
+    - _ConsumeColor1: {r: 0.9921568, g: 0.5471746, b: 0.3075686, a: 1}
+    - _ConsumeColor2: {r: 0.9921569, g: 0.6077937, b: 0.3968627, a: 1}
+    - _ConsumeTargetColor1: {r: 0.9921569, g: 0.7390397, b: 0.3968627, a: 1}
+    - _ConsumeTargetColor2: {r: 0.9921569, g: 0.80935, b: 0.3968627, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ProductColor: {r: 0, g: 0.6883507, b: 1, a: 1}
+    - _ProductColor1: {r: 0.224, g: 0.7542667, b: 1, a: 1}
+    - _ProductColor2: {r: 0.4, g: 0.872441, b: 1, a: 1}
+    - _ProductTargetColor1: {r: 0.4, g: 0.4047244, b: 1, a: 1}
+    - _ProductTargetColor2: {r: 0.4, g: 0.5370078, b: 1, a: 1}
+    - _ZeroColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
