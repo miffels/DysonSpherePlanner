@@ -1,0 +1,27 @@
+name: Deploy to gh-pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Release Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Lint
+        run: npm run lint
+
+      - name: Test (Unit)
+        run: npm run test:unit
+
+      - name: Test (E2E)
+        run: npm run test:e2e
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        run: npm run deploy

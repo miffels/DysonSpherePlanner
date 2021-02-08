@@ -10,7 +10,7 @@ function fixStringProtoIndentation() {
 
   console.log("Adjusting indentation in " + stringProtoPath + "...");
 
-  readFile(join("raw/", stringProtoPath), "utf-8").then((data) => {
+  readFile(join("assets/raw", stringProtoPath), "utf-8").then((data) => {
     const lines = data.split(/\n/);
     let indent = false;
     let cleaned = "";
@@ -22,7 +22,7 @@ function fixStringProtoIndentation() {
     }
     // Test if parsing passes now
     console.log(YAML.parse(cleaned).MonoBehaviour.dataArray.length);
-    writeFile(join("data", stringProtoPath), cleaned);
+    writeFile(join("assets/data", stringProtoPath), cleaned);
   }).catch(e => console.error(e));
 
 }
@@ -33,11 +33,11 @@ function fixRecipeItemRefs() {
 
   console.log("Adjusting string delimiters in " + recipeProtoPath + "...");
 
-  readFile(join("raw/", recipeProtoPath), "utf-8").then((data) => {
+  readFile(join("assets/raw", recipeProtoPath), "utf-8").then((data) => {
     const cleaned = data.replace(regex, "'$2'");
     // Test if parsing passes now
     console.log(YAML.parse(cleaned).MonoBehaviour.dataArray.length);
-    writeFile(join("data", recipeProtoPath), cleaned);
+    writeFile(join("assets/data", recipeProtoPath), cleaned);
   }).catch(e => console.error(e));
 
 }

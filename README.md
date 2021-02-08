@@ -1,20 +1,41 @@
 # Dyson Sphere Planner
 
-Recipe browser, potentially planner at some point. You could call it early access ;)
-
-## Build Setup
-
-``` bash
-# install dependencies
+## Project setup
+```
 npm install
+```
 
-# serve with hot reload at localhost:8080
-npm run dev
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# build for production with minification
+### Compiles and minifies for production
+```
 npm run build
 ```
 
-## Contributing
 
-Contributions are welcome, but give me a few days to clean up this mess that I rushed out.
+### Deploy to `gh-pages`
+
+```
+npm run deploy
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Run your end-to-end tests
+```
+npm run test:e2e
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
