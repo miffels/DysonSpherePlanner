@@ -1,5 +1,11 @@
 # Dyson Sphere Planner
 
+A factory planner tool for the Dyson Sphere Program game. This is a community project and not otherwise related to Youthcat Studio.
+
+## Contribution
+
+Feel more invited to contribute - both feedback and code are welcome. If you submit code, please make sure it's tested. Both unit and e2e test scaffolds are there.
+
 ## Project setup
 ```
 npm install
@@ -9,33 +15,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-
-### Deploy to `gh-pages`
-
-```
-npm run deploy
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
