@@ -6,10 +6,13 @@ on:
 
 jobs:
   build:
-    name: Release Build
+    name: Test, Build, Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install
+        run: npm install
       
       - name: Lint
         run: npm run lint
