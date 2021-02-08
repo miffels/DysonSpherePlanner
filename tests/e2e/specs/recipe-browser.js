@@ -14,12 +14,12 @@ class RecipeSearchComponent {
 
 const component = RecipeSearchComponent;
 
-describe('My First Test', () => {
+describe('Recipe Browser', () => {
   beforeEach(() => {
     component.visit();
   });
 
-  it('Visits the app root url', () => {
+  it('Is rendered', () => {
     cy.contains('h1', 'Recipe Browser');
   });
 });
