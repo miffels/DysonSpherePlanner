@@ -1,1 +1,1 @@
-declare module "@trevoreyre/autocomplete-vue";
+declare module '@trevoreyre/autocomplete-vue';
